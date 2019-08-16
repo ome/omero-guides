@@ -1,0 +1,3 @@
+[submodule "omero-guide-cellprofiler"]
+	path = omero-guide-cellprofiler
+	url = https://github.com/jburel/omero-guide-cellprofiler.git
