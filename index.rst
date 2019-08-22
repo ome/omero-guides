@@ -11,6 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   omero-guide-cellprofiler/index
+   omero-guide-matlab/index
+
 
 
 Indices and tables
