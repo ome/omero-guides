@@ -9,10 +9,9 @@ Welcome to OMERO guide's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
-
    omero-guide-cellprofiler/index
    omero-guide-matlab/index
+   :maxdepth: 2
 
 
 
