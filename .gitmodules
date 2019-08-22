@@ -1,3 +1,6 @@
 [submodule "omero-guide-cellprofiler"]
 	path = omero-guide-cellprofiler
 	url = https://github.com/jburel/omero-guide-cellprofiler.git
+[submodule "omero-guide-matlab"]
+	path = omero-guide-matlab
+	url = https://github.com/jburel/omero-guide-matlab.git
