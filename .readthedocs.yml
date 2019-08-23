@@ -21,3 +21,10 @@ python:
   version: 3.7
   install:
     - requirements: requirements.txt
+
+submodules:
+  include:
+     - omero-guide-cellprofiler
+     - omero-guide-qupath
+     - omero-guide-matlab
+  recursive: true
