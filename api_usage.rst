@@ -6,3 +6,4 @@ Analyze data using OMERO APIs
     :titlesonly:
 
     omero-guide-matlab/docs/index
+    omero-guide-r/docs/index
