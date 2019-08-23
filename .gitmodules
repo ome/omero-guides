@@ -13,3 +13,6 @@
 [submodule "omero-guide-fiji"]
 	path = omero-guide-fiji
 	url = https://github.com/ome/omero-guide-fiji.git
+[submodule "omero-guide-orbit"]
+	path = omero-guide-orbit
+	url = https://github.com/ome/omero-guide-orbit

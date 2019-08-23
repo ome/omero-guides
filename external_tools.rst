@@ -7,4 +7,5 @@ Analyze data using External Software
 
     omero-guide-cellprofiler/docs/index
     omero-guide-fiji/docs/index
+    omero-guide-orbit/docs/index
     omero-guide-qupath/docs/index
