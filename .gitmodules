@@ -4,3 +4,6 @@
 [submodule "omero-guide-matlab"]
 	path = omero-guide-matlab
 	url = https://github.com/jburel/omero-guide-matlab.git
+[submodule "omero-guide-qupath"]
+	path = omero-guide-qupath
+	url = https://github.com/jburel/omero-guide-qupath
