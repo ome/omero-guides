@@ -23,8 +23,5 @@ python:
     - requirements: requirements.txt
 
 submodules:
-  include:
-     - omero-guide-cellprofiler
-     - omero-guide-qupath
-     - omero-guide-matlab
+  include: all
   recursive: true
