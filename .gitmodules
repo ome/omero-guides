@@ -19,3 +19,6 @@
 [submodule "figure"]
 	path = figure
 	url = https://github.com/ome/omero-guide-figure.git
+[submodule "trackmate"]
+	path = trackmate
+	url = https://github.com/ome/omero-guide-trackmate.git

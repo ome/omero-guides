@@ -9,3 +9,4 @@ Analyze data using External Software
     fiji/docs/index
     orbit/docs/index
     qupath/docs/index
+    trackmate/docs/index
