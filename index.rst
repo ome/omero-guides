@@ -8,3 +8,4 @@ Contents:
 
    external_tools
    api_usage
+   add_ons

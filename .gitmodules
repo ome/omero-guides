@@ -16,3 +16,6 @@
 [submodule "r"]
 	path = r
 	url = https://github.com/ome/omero-guide-r.git
+[submodule "figure"]
+	path = figure
+	url = https://github.com/ome/omero-guide-figure.git
