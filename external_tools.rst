@@ -5,7 +5,7 @@ Analyze data using External Software
     :maxdepth: 1
     :titlesonly:
 
-    omero-guide-cellprofiler/docs/index
-    omero-guide-fiji/docs/index
-    omero-guide-orbit/docs/index
-    omero-guide-qupath/docs/index
+    cellprofiler/docs/index
+    fiji/docs/index
+    orbit/docs/index
+    qupath/docs/index

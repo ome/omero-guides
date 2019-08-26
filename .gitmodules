@@ -1,18 +1,18 @@
-[submodule "omero-guide-cellprofiler"]
-	path = omero-guide-cellprofiler
+[submodule "cellprofiler"]
+	path = cellprofiler
 	url = https://github.com/ome/omero-guide-cellprofiler.git
-[submodule "omero-guide-matlab"]
-	path = omero-guide-matlab
+[submodule "matlab"]
+	path = matlab
 	url = https://github.com/ome/omero-guide-matlab.git
-[submodule "omero-guide-qupath"]
-	path = omero-guide-qupath
-	url = https://github.com/ome/omero-guide-qupath
-[submodule "omero-guide-r"]
-	path = omero-guide-r
-	url = https://github.com/ome/omero-guide-r.git
-[submodule "omero-guide-fiji"]
-	path = omero-guide-fiji
+[submodule "qupath"]
+	path = qupath
+	url = https://github.com/ome/omero-guide-qupath.git
+[submodule "fiji"]
+	path = fiji
 	url = https://github.com/ome/omero-guide-fiji.git
-[submodule "omero-guide-orbit"]
-	path = omero-guide-orbit
-	url = https://github.com/ome/omero-guide-orbit
+[submodule "orbit"]
+	path = orbit
+	url = https://github.com/ome/omero-guide-orbit.git
+[submodule "r"]
+	path = r
+	url = https://github.com/ome/omero-guide-r.git

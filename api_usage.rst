@@ -5,5 +5,5 @@ Analyze data using OMERO APIs
     :maxdepth: 1
     :titlesonly:
 
-    omero-guide-matlab/docs/index
-    omero-guide-r/docs/index
+    matlab/docs/index
+    r/docs/index
