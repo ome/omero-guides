@@ -7,4 +7,5 @@ Add-ons for OMERO
 
     figure/docs/index
     fpbioimage/docs/index
+    iviewer/docs/index
     parade/docs/index
