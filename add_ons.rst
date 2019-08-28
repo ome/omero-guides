@@ -6,4 +6,5 @@ Add-ons for OMERO
     :titlesonly:
 
     figure/docs/index
+    fpbioimage/docs/index
     parade/docs/index

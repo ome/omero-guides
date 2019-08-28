@@ -28,3 +28,6 @@
 [submodule "parade"]
 	path = parade
 	url = https://github.com/ome/omero-guide-parade.git
+[submodule "fpbioimage"]
+	path = fpbioimage
+	url = https://github.com/ome/omero-guide-fpbioimage.git
