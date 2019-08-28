@@ -25,3 +25,6 @@
 [submodule "python"]
 	path = python
 	url = https://github.com/ome/omero-guide-python.git
+[submodule "parade"]
+	path = parade
+	url = https://github.com/ome/omero-guide-parade.git

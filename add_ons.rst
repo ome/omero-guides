@@ -6,3 +6,4 @@ Add-ons for OMERO
     :titlesonly:
 
     figure/docs/index
+    parade/docs/index
