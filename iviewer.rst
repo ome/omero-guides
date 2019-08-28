@@ -118,11 +118,11 @@ default viewer for OMERO.web.
 
 #. We can synchronize the viewers by adding them both to the same sync Group.
 
-    f. Click the sync icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
+    - Click the sync icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
 
-    g. Repeat for the other viewer.
+    - Repeat for the other viewer.
 
-    h. Now both Images have the Z/T and View (zoom and position of viewport) synchronized. 
+    - Now both Images have the Z/T and View (zoom and position of viewport) synchronized. 
 
        .. image:: images/Iviewer14.png
 
@@ -134,7 +134,7 @@ default viewer for OMERO.web.
 
     - Input “DAPI” instead of channel “457” and “GFP”, “Aurora-B” and “CY-6\ ” for the other channels.
 
-    -# Click the Apply to All button |image17| and confirm by clicking Continue.
+    - Click the Apply to All button |image17| and confirm by clicking Continue.
 
 .. |image1| image:: images/Iviewer1.png
    :width: 0.79167in
