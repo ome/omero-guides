@@ -6,4 +6,5 @@ Analyze data using OMERO APIs
     :titlesonly:
 
     matlab/docs/index
+    python/docs/index
     r/docs/index

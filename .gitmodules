@@ -22,3 +22,6 @@
 [submodule "trackmate"]
 	path = trackmate
 	url = https://github.com/ome/omero-guide-trackmate.git
+[submodule "python"]
+	path = python
+	url = https://github.com/ome/omero-guide-python.git
