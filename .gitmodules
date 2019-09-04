@@ -34,3 +34,6 @@
 [submodule "iviewer"]
 	path = iviewer
 	url = https://github.com/ome/omero-guide-iviewer.git
+[submodule "upload"]
+	path = upload
+	url = https://github.com/ome/omero-guide-upload.git
