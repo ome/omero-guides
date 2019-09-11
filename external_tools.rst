@@ -1,5 +1,5 @@
-Analyze data using External Software
-====================================
+External Software and OMERO
+===========================
 
 .. toctree::
     :maxdepth: 1

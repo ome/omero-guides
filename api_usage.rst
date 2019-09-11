@@ -1,5 +1,5 @@
-Analyze data using OMERO APIs
-=============================
+OMERO APIs
+==========
 
 .. toctree::
     :maxdepth: 1
