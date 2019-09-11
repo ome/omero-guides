@@ -10,4 +10,4 @@ To create a new guide:
   - add the new repository as a new project on `readthedocs <https://readthedocs.org/>`_
   - add the new repository as a subproject of `omero-guides <https://readthedocs.org/projects/omero-guides/>`_ using an alias e.g. omero-guide-figure has been added as figure
   - add it to the this repository as a submodule using the same alias.
-
+  - insert the guide into one of the existing files or in a new file it is a new section.
