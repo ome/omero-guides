@@ -3,7 +3,7 @@ External Software and OMERO
 
 Here we describe how to use third party tools to analyze data stored in OMERO.
 We provide installation instructions, step-by-step workflow either to use the User Interface
-of those tools or their API.
+or the API of those tools.
 
 - :doc:`cellprofiler/docs/index` is a free open-source software for quantitative analysis of biological images. We demonstrate how to integrate CellProfiler and OMERO using the CellProfiler Python API and the OMERO Python API.
 
