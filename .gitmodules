@@ -37,3 +37,6 @@
 [submodule "upload"]
 	path = upload
 	url = https://github.com/ome/omero-guide-upload.git
+[submodule "ilastik"]
+	path = ilastik
+	url = https://github.com/ome/omero-guide-ilastik.git
