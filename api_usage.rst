@@ -1,5 +1,5 @@
-OMERO APIs
-==========
+OMERO Application Programming Interfaces
+========================================
 
 The OMERO Application Programming Interface (API) allows clients to be written in Java, Python, R, C++ or MATLAB.
 In this section we show how to set up the various libraries and
