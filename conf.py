@@ -28,7 +28,13 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.doctest',
+    'sphinx.ext.inheritance_diagram']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -326,3 +332,17 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
+
+rst_epilog = """
+.. _fiji: fiji/docs/index.html
+.. _ilastik: ilastik/docs/index.html
+.. _orbit: orbit/docs/index.html
+.. _qupath: qupath/docs/index.html
+.. _trackmate: trackmate/docs/index.html
+.. _cellprofiler: cellprofiler/docs/index.html
+.. _r: r/docs/index.html
+.. _matlab: matlab/docs/index.html
+.. _python: python/docs/index.html
+.. _java: java/docs/index.html
+
+"""
