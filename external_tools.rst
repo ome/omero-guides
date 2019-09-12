@@ -5,17 +5,61 @@ Here we describe how to use third party tools to analyze data stored in OMERO.
 We provide installation instructions, step-by-step workflow either to use the User Interface
 or the API of those tools.
 
-- :doc:`cellprofiler/docs/index` is a free open-source software for quantitative analysis of biological images. We demonstrate how to integrate CellProfiler and OMERO using the CellProfiler Python API and the OMERO Python API.
 
-- :doc:`fiji/docs/index` is a popular free open-source image processing package based on ImageJ, https://imagej.net/Fiji. We demonstrate how to use Fiji User Interface and OMERO and we also demonstrate how to analyze data in OMERO using Fiji scripting facility.
+.. list-table::
+   :widths: 1 2 3
 
-- :doc:`ilastik/docs/index` is a free open-source interactive learning and segmentation toolkit, with which can be used to leverage machine learning algorithms to easily segment, classify, track and count cells or other experimental data
+   * - \ |cellprofiler|_
+     - :doc:`cellprofiler/docs/index`
+     - .. include:: cellprofiler/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |fiji|_
+     - :doc:`fiji/docs/index`
+     - .. include:: fiji/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |ilastik|_
+     - :doc:`ilastik/docs/index`
+     - .. include:: ilastik/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |orbit|_
+     - :doc:`orbit/docs/index`
+     - .. include:: orbit/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |qupath|_
+     - :doc:`qupath/docs/index`
+     - .. include:: qupath/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |trackmate|_
+     - :doc:`trackmate/docs/index`
+     - .. include:: trackmate/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
 
-- :doc:`orbit/docs/index` is a free open-source software with the focus on quantification of big images like whole slide scans. It offers sophisticated image analysis algorithms. Of those, tissue quantification using machine learning techniques, object/cell segmentation, and object classification are the basic ones. We demonstrate how to integrate Orbit and OMERO using both the User Interface and the API.
 
-- :doc:`qupath/docs/index` is a free open-source cross-platform software application designed for bioimage analysis - and specifically to meet the needs of whole slide image analysis and digital pathology. We demonstrate how to integrate QuPath and OMERO using the User Interface.
 
-- :doc:`trackmate/docs/index` is Fiji plugin for single-particle tracking. We demonstrate how to use TrackMate and OMERO using both the User Interface and the API.
+.. |fiji| image:: images/logos/fiji.png
+   :width: 1.125in
+   :height: 1.125in
+.. |ilastik| image:: images/logos/ilastik.png
+   :width: 1.02778in
+   :height: 1.02778in
+.. |orbit| image:: images/logos/orbit.png
+   :width: 1.04057in
+   :height: 1.01389in
+.. |qupath| image:: images/logos/qupath.png
+   :width: 1.5in
+   :height: 1in
+.. |trackmate| image:: images/logos/trackmate.png
+   :width: 1.96374in
+   :height: 1.15278in
+.. |cellprofiler| image:: images/logos/cellprofiler.png
+   :width: 1.09234in
+   :height: 1.08267in
 
 .. toctree::
     :maxdepth: 1
