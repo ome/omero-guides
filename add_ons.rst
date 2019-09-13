@@ -5,17 +5,39 @@ OMERO is a flexible platform offering various extension points e.g. Django based
 Command Line Interface plugins. Those extensions are not installed by default when deploying OMERO.
 They require some additional setup steps.
 
-Web extensions
---------------
-All the Web extensions can be installed using ``pip``.
+**Web extensions**
+------------------
 
-- :doc:`figure/docs/index` is a popular tool for creating figures from Images in OMERO. Image metadata can be used to facilitate figure creation.
+All the Web extensions can be installed using ``pip``. Check each app for configuration details.
 
-- :doc:`fpbioimage/docs/index` is a volumetric visualization tool.
+:doc:`figure/docs/index`
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-- :doc:`iviewer/docs/index` is a 2D image viewer allowing to visualize 5D images, draw ROIs and add annotation. It also offers a multi-view mode.
+.. include:: figure/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
 
-- :doc:`parade/docs/index` is a data mining tool.
+:doc:`fpbioimage/docs/index`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: fpbioimage/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
+
+:doc:`iviewer/docs/index`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: iviewer/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
+
+:doc:`parade/docs/index`
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: parade/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
+
 
 .. toctree::
     :maxdepth: 1
