@@ -7,7 +7,7 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
 
 
 .. list-table::
-   :widths: 1 2 3
+   :widths: 20 20 50
 
    * - \ |matlab|_
      - :doc:`matlab/docs/index`

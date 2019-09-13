@@ -7,7 +7,7 @@ or the API of those tools.
 
 
 .. list-table::
-   :widths: 1 2 3
+   :widths: 30 20 50
 
    * - \ |cellprofiler|_
      - :doc:`cellprofiler/docs/index`
