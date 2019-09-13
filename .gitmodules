@@ -40,3 +40,6 @@
 [submodule "ilastik"]
 	path = ilastik
 	url = https://github.com/ome/omero-guide-ilastik.git
+[submodule "introduction"]
+	path = introduction
+	url = https://github.com/ome/omero-guide-introduction.git
