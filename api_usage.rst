@@ -5,11 +5,42 @@ The OMERO Application Programming Interface (API) allows clients to be written i
 In this section we show how to set up the various libraries and
 use a combination of Jupyter notebook and scripts to demonstrate how to use the APIs.
 
-- :doc:`matlab/docs/index` demonstrates how to install and use the MATLAB toolbox
 
-- :doc:`python/docs/index` demonstrates how to use the Python API using Jupyter notebooks
+.. list-table::
+   :widths: 1 2 3
 
-- :doc:`r/docs/index` includes how to set up the R gateway and how to use it either via script or Jupyter notebook.
+   * - \ |matlab|_
+     - :doc:`matlab/docs/index`
+     - .. include:: matlab/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |python|_
+     - :doc:`python/docs/index`
+     - .. include:: python/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+   * - \ |r|_
+     - :doc:`r/docs/index`
+     - .. include:: r/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
+
+.. |r| image:: images/logos/r.png
+   :width: 1.04167in
+   :height: 1.04167in
+
+.. |matlab| image:: images/logos/matlab.png
+   :width: 1.04167in
+   :height: 1.04167in
+
+.. |python| image:: images/logos/python.png
+   :width: 1.04167in
+   :height: 1.04167in
+
+.. |java| image:: images/logos/java.png
+   :width: 1.04167in
+   :height: 1.04167in
+
 
 .. toctree::
     :maxdepth: 1
