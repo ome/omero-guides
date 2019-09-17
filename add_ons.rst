@@ -38,6 +38,15 @@ All the Web extensions can be installed using ``pip``. Check each app for config
     :start-line: 3
     :end-before: Contents
 
+**CLI extensions**
+------------------
+
+:doc:`download/docs/index`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. include:: download/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
 
 .. toctree::
     :maxdepth: 1

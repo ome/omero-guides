@@ -43,3 +43,6 @@
 [submodule "introduction"]
 	path = introduction
 	url = https://github.com/ome/omero-guide-introduction.git
+[submodule "download"]
+	path = download
+	url = https://github.com/ome/omero-guide-download.git
