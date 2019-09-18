@@ -27,6 +27,7 @@ Powered by
 .. |fiji| image:: images/logos/fiji.png
    :width: 1.125in
    :height: 1.125in
+
 .. |ilastik| image:: images/logos/ilastik.png
    :width: 1.02778in
    :height: 1.02778in
