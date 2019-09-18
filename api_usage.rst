@@ -9,6 +9,11 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
 .. list-table::
    :widths: 20 20 50
 
+   * - \ |java|_
+     - :doc:`java/docs/index`
+     - .. include:: java/docs/index.rst
+         :start-line: 3
+         :end-before: Contents
    * - \ |matlab|_
      - :doc:`matlab/docs/index`
      - .. include:: matlab/docs/index.rst
@@ -46,6 +51,7 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
     :maxdepth: 1
     :hidden:
 
+    java/docs/index
     matlab/docs/index
     python/docs/index
     r/docs/index

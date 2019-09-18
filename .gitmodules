@@ -46,3 +46,6 @@
 [submodule "download"]
 	path = download
 	url = https://github.com/ome/omero-guide-download.git
+[submodule "java"]
+	path = java
+	url = https://github.com/ome/omero-guide-java.git
