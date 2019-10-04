@@ -15,9 +15,16 @@ In this section we introduce general concepts about OMERO: data import, manageme
     :start-line: 3
     :end-before: Contents
 
+- :doc:`scripts/docs/index`
+
+.. include:: scripts/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
+
 .. toctree::
     :maxdepth: 1
     :hidden:
 
     upload/docs/index
     introduction/docs/index
+    scripts/docs/index

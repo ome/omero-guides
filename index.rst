@@ -3,7 +3,7 @@ OMERO guide
 
 The OMERO guide is divided into several parts:
 
-:doc:`core_features` covers how to get started, import and manage data.
+:doc:`core_features` covers how to get started, import, manage data and run server-side OMERO scripts.
 
 :doc:`add_ons` includes instructions for installing Web and Command Line Interface plugins
 and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
