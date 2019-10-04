@@ -49,3 +49,6 @@
 [submodule "java"]
 	path = java
 	url = https://github.com/ome/omero-guide-java.git
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/ome/omero-guide-scripts.git
