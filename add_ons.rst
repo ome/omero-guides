@@ -50,3 +50,15 @@ All the Web extensions can be installed using ``pip``. Check each app for config
     fpbioimage/docs/index
     iviewer/docs/index
     parade/docs/index
+
+**Insight extensions**
+----------------------
+
+.. toctree::
+    :maxdepth: 1
+    :hidden:
+
+    mde/docs/index
+
+
+
