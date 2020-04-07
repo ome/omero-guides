@@ -54,11 +54,13 @@ All the Web extensions can be installed using ``pip``. Check each app for config
 **Insight extensions**
 ----------------------
 
-.. toctree::
-    :maxdepth: 1
-    :hidden:
+:doc:`mde/docs/index`
+~~~~~~~~~~~~~~~~~~~~~
 
-    mde/docs/index
+.. include:: mde/docs/index.rst
+    :start-line: 3
+    :end-before: Contents
+    
 
 
 
