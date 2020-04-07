@@ -52,3 +52,6 @@
 [submodule "scripts"]
 	path = scripts
 	url = https://github.com/ome/omero-guide-scripts.git
+[submodule "mde"]
+	path = mde
+	url = https://github.com/ome/omero-guide-mde.git
