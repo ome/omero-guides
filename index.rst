@@ -5,7 +5,7 @@ The OMERO guide is divided into several parts:
 
 :doc:`core_features` covers how to get started, import, manage data and run server-side OMERO scripts.
 
-:doc:`add_ons` includes instructions for installing Web and Command Line Interface plugins
+:doc:`add_ons` includes instructions for installing Web, Insight and Command Line Interface plugins
 and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
 
 :doc:`api_usage` allows clients to be written in Java, Python, R, C++ or MATLAB. This section includes installation instructions and an exhaustive list of examples.
