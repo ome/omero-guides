@@ -18,14 +18,14 @@ All the Web extensions can be installed using ``pip``. Check each app for config
     :end-before: Contents
 
 :doc:`fpbioimage/docs/index`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. include:: fpbioimage/docs/index.rst
     :start-line: 3
     :end-before: Contents
 
 :doc:`iviewer/docs/index`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. include:: iviewer/docs/index.rst
     :start-line: 3
@@ -38,18 +38,18 @@ All the Web extensions can be installed using ``pip``. Check each app for config
     :start-line: 3
     :end-before: Contents
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   figure/docs/index
+   fpbioimage/docs/index
+   iviewer/docs/index
+   parade/docs/index
+
 **CLI extensions**
 ------------------
 
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    figure/docs/index
-    fpbioimage/docs/index
-    iviewer/docs/index
-    parade/docs/index
 
 **Insight extensions**
 ----------------------
@@ -60,7 +60,9 @@ All the Web extensions can be installed using ``pip``. Check each app for config
 .. include:: mde/docs/index.rst
     :start-line: 3
     :end-before: Contents
-    
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
 
-
+   mde/docs/index
