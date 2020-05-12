@@ -31,16 +31,20 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
          :end-before: Contents
 
 .. |r| image:: images/logos/r.png
-   :width: 100%
+   :width: 30px
+   :height: 30px
 
 .. |matlab| image:: images/logos/matlab.png
-   :width: 100%
+   :width: 30px
+   :height: 30px
 
 .. |python| image:: images/logos/python.png
-   :width: 100%
+   :width: 30px
+   :height: 30px
 
 .. |java| image:: images/logos/java.png
-   :width: 100%
+   :width: 30px
+   :height: 30px
 
 
 .. toctree::
