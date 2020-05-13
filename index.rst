@@ -23,6 +23,7 @@ Click on the icon to go the relevant part of the guide.
 Powered by
 
 .. image:: images/logos/jupyter_binder.png
+.. image:: images/logos/zarr.png
 
 .. |fiji| image:: images/logos/fiji.png
    :width: 1.125in
