@@ -1,9 +1,15 @@
 OMERO guide
 ===========
 
+The OMERO guide offers step-by-step instructions on how to use components of the OMERO platform.
+To learn more about OMERO, we recommend that you first visit `https://www.openmicroscopy.org/omero/ <https://www.openmicroscopy.org/omero/>`_
+
 The OMERO guide is divided into several parts:
 
 :doc:`core_features` covers how to get started, import, manage data and run server-side OMERO scripts.
+
+:doc:`web_addons` includes instructions for installing Web plugins
+and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
 
 :doc:`add_ons` includes instructions for installing Web, Insight and Command Line Interface plugins
 and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
