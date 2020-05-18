@@ -74,4 +74,5 @@ Powered by
    external_tools
    api_usage
    add_ons
+   web_addons
    write_guide
