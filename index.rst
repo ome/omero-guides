@@ -11,12 +11,12 @@ The OMERO guide is divided into several parts:
 :doc:`web_addons` includes instructions for installing Web plugins
 and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
 
-:doc:`add_ons` includes instructions for installing Web, Insight and Command Line Interface plugins
-and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
+:doc:`add_ons` includes instructions for installing Insight and Command Line Interface plugins
+and how to use those extensions points.
 
 :doc:`api_usage` allows clients to be written in Java, Python, R, C++ or MATLAB. This section includes installation instructions and an exhaustive list of examples.
 
-:doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik. 
+:doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik.
 
 All the guides are hosted on GitHub. If you wish to create a new guide, check the instructions on :doc:`write_guide`.
 
@@ -82,3 +82,4 @@ Powered by
    add_ons
    web_addons
    write_guide
+   example
