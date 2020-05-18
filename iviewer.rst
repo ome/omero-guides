@@ -1,7 +1,7 @@
 OMERO.iviewer
 =============
 
-In this document, we introduce 
+We introduce 
 OMERO.iviewer a 2D viewer which can
 open and browse multi-t, multi-z and multi-channel images and allow to 
 draw and edit Regions of Interest.
