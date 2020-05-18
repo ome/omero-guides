@@ -1,9 +1,12 @@
 OMERO.iviewer
 =============
 
-In this document, we introduce two viewers in OMERO.web, the
-OMERO.iviewer (the main image viewer in OMERO, a 2D viewer which can
-open and browse multi-t, multi-z and multi-channel images).
+In this document, we introduce 
+OMERO.iviewer a 2D viewer which can
+open and browse multi-t, multi-z and multi-channel images and allow to 
+draw and edit Regions of Interest.
+It also offers the ability to view several images and the same time and synchronize the
+view.
 
 **Description:**
 ----------------
