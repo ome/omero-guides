@@ -11,3 +11,9 @@
       overflow: visible !important;
    }
 }
+
+/* Custom styles for icon column of the API table */
+#omero-application-programming-interfaces td:nth-child(1) {
+   padding: 5px;
+   min-width: 40px;
+}
