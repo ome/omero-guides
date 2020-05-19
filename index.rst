@@ -4,6 +4,15 @@ OMERO guide
 The OMERO guide offers step-by-step instructions on how to use components of the OMERO platform.
 To learn more about OMERO, we recommend that you first visit `https://www.openmicroscopy.org/omero/ <https://www.openmicroscopy.org/omero/>`_
 
+Getting started
+---------------
+
+:doc:`example` combines a step-by-step example workflow from import to figure creation.
+
+
+General
+-------
+
 The OMERO guide is divided into several parts:
 
 :doc:`core_features` covers how to get started, import, manage data and run server-side OMERO scripts.
