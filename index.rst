@@ -27,7 +27,6 @@ and how to use those extension points.
 
 :doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik.
 
-:doc:`example` combines an example step-by-step workflow from import to figure creation.
 
 All the guides are hosted on GitHub. If you wish to create a new guide, check the instructions on :doc:`write_guide`.
 
