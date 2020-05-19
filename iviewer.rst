@@ -2,7 +2,7 @@ OMERO.iviewer
 =============
 
 We introduce 
-OMERO.iviewer a 2D viewer which can
+OMERO.iviewer, a 2D viewer which can
 open and browse multi-t, multi-z and multi-channel images and allow to 
 draw and edit Regions of Interest.
 It also offers the ability to view several images and the same time and synchronize the
@@ -172,7 +172,6 @@ default viewer for OMERO.web.
 .. |image17| image:: images/Iviewer17.png
    :width: 0.78125in
    :height: 0.23958in
-
 
 
 
