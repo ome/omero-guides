@@ -1,7 +1,7 @@
 View data in OMERO.web
 ======================
 
-OMERO.web is a flexible Django based Web platform offering extension points.
+OMERO.web is a flexible Django-based Web platform offering extension points.
 Those extensions are not installed by default when deploying OMERO.
 They require some additional setup steps.
 
