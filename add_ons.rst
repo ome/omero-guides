@@ -6,10 +6,6 @@ Command Line Interface plugins or OMERO.insight plugins. Those extensions are no
 They require some additional setup steps.
 
 
-**CLI extensions**
-------------------
-
-
 **Insight extensions**
 ----------------------
 
