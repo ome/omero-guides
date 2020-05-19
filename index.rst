@@ -12,7 +12,7 @@ The OMERO guide is divided into several parts:
 and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
 
 :doc:`add_ons` includes instructions for installing Insight and Command Line Interface plugins
-and how to use those extensions points.
+and how to use those extension points.
 
 :doc:`api_usage` allows clients to be written in Java, Python, R, C++ or MATLAB. This section includes installation instructions and an exhaustive list of examples.
 
