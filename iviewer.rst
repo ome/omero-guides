@@ -13,7 +13,7 @@ view.
 
 We will show here:
 
--  How to open multidimensional images OMERO.iviewer
+-  How to open multidimensional images in OMERO.iviewer
 
 -  How to change rendering settings in OMERO.iviewer and scroll through z and t
 
