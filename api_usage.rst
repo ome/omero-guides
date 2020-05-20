@@ -7,7 +7,7 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
 
 
 .. list-table::
-   :widths: 20 20 50
+   :widths: 25 25 50
 
    * - \ |java|_
      - :doc:`java/docs/index`
@@ -31,20 +31,13 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
          :end-before: Contents
 
 .. |r| image:: images/logos/r.png
-   :width: 1.04167in
-   :height: 1.04167in
 
 .. |matlab| image:: images/logos/matlab.png
-   :width: 1.04167in
-   :height: 1.04167in
 
 .. |python| image:: images/logos/python.png
-   :width: 1.04167in
-   :height: 1.04167in
 
 .. |java| image:: images/logos/java.png
-   :width: 1.04167in
-   :height: 1.04167in
+
 
 
 .. toctree::
