@@ -1,16 +1,32 @@
 OMERO guide
 ===========
 
+The OMERO guide offers step-by-step instructions on how to use components of the OMERO platform.
+To learn more about OMERO, we recommend that you first visit `https://www.openmicroscopy.org/omero/ <https://www.openmicroscopy.org/omero/>`_
+
+Getting started
+---------------
+
+:doc:`example` combines a step-by-step example workflow from import to figure creation.
+
+
+General
+-------
+
 The OMERO guide is divided into several parts:
 
 :doc:`core_features` covers how to get started, import, manage data and run server-side OMERO scripts.
 
-:doc:`add_ons` includes instructions for installing Web, Insight and Command Line Interface plugins
+:doc:`web_addons` includes instructions for installing Web plugins
 and how to use those extensions points e.g. OMERO.figure, OMERO.parade.
+
+:doc:`add_ons` includes instructions for installing Insight and Command Line Interface plugins
+and how to use those extension points.
 
 :doc:`api_usage` allows clients to be written in Java, Python, R, C++ or MATLAB. This section includes installation instructions and an exhaustive list of examples.
 
-:doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik. 
+:doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik.
+
 
 All the guides are hosted on GitHub. If you wish to create a new guide, check the instructions on :doc:`write_guide`.
 
@@ -74,4 +90,6 @@ Powered by
    external_tools
    api_usage
    add_ons
+   web_addons
    write_guide
+   example
