@@ -23,12 +23,12 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
      - :doc:`python/docs/index`
      - .. include:: python/docs/index.rst
          :start-line: 3
-         :end-before: Contents
+         :end-before: **Contents
    * - \ |r|_
      - :doc:`r/docs/index`
      - .. include:: r/docs/index.rst
          :start-line: 3
-         :end-before: Contents
+         :end-before: **Contents
 
 .. |r| image:: images/logos/r.png
 
