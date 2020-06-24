@@ -17,6 +17,8 @@ We will show here:
 
 -  How to change rendering settings in OMERO.iviewer and scroll through z and t
 
+-  How to use the Histogram feature
+
 -  How to inspect the intensities, zoom and rotate the image
 
 -  How to draw ROIs on the image
@@ -68,6 +70,12 @@ default viewer for OMERO.web.
 #. We can adjust the rendering settings and scroll through Z or T.
 
    .. image:: images/Iviewer2.png
+
+#. Still staying in the "Settings" tab in the right-hand side of OMERO.iviewer, click on the checkbox next to the "Histogram" word |image0| near the top.
+
+#. A histogram of the first channel which is on will appear. Note that when you move the rendering settings slider beneath the histogram, the histogram reverst to showing the channel you just manipulated.
+
+   .. image:: images/Iviewer0b.png
 
 #. Click the Crosshairs icon |image3| at the top-right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on. 
 
@@ -139,6 +147,12 @@ default viewer for OMERO.web.
 
     - Click the Apply to All button |image17| and confirm by clicking Continue.
 
+.. |image0| image:: images/Iviewer0.png
+   :width: 0.79167in
+   :height: 0.27083in
+.. |image0b| image:: images/Iviewer0b.png
+   :width: 0.79167in
+   :height: 0.27083in
 .. |image1| image:: images/Iviewer1.png
    :width: 0.79167in
    :height: 0.27083in
