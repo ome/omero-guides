@@ -7,7 +7,7 @@ To learn more about OMERO, we recommend that you first visit `https://www.openmi
 Getting started
 ---------------
 
-:doc:`example` combines a step-by-step example workflow from import to figure creation.
+:doc:`example` presents a step-by-step example of a typical OMERO user workflow from import to figure creation.
 
 
 General
