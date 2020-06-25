@@ -8,8 +8,8 @@ draw and edit Regions of Interest.
 It also offers the ability to view several images at the same time and synchronize the
 view.
 
-**Description:**
-----------------
+Description
+-----------
 
 We will show here:
 
@@ -35,8 +35,8 @@ We will show here:
 
 -  How to use and synchronize multiple viewer windows inside OMERO.iviewer
 
-Resources:
-----------
+Resources
+---------
 
 New features video
 
@@ -50,8 +50,8 @@ Note: Only some of the images in this dataset are z-stacks, for example
 
 -  https://downloads.openmicroscopy.org/images/DV/siRNAi-HeLa/IN_03.r3d_D3D.dv
 
-Setup:
-------
+Setup
+-----
 
 **OMERO.iviewer installation**
 
@@ -62,30 +62,30 @@ it and configure the OMERO.web accordingly.
 The walkthrough assumes that OMERO.iviewer has been set up as the
 default viewer for OMERO.web.
 
-**Step-by-Step:**
------------------
+Step-by-Step
+------------
 
-#. Double-click on an Image thumbnail, or click the Full Viewer |image1|\  button in the right-hand pane to open an Image in a larger viewer called OMERO.iviewer. It is a Web app developed and released independently from the webclient. The OMERO.web framework can be extended with multiple apps to view data in different ways.
+#. Double-click on an Image thumbnail, or click the ``Full Viewer`` |image1|\  button in the right-hand pane to open an Image in a larger viewer called OMERO.iviewer. It is a Web app developed and released independently from the webclient. The OMERO.web framework can be extended with multiple apps to view data in different ways.
 
 #. We can adjust the rendering settings and scroll through Z or T.
 
    .. image:: images/Iviewer2.png
 
-#. Still staying in the "Settings" tab in the right-hand side of OMERO.iviewer, click on the checkbox next to the "Histogram" word |image0| near the top.
+#. Still staying in the ``Settings`` tab in the right-hand side of OMERO.iviewer, click on the checkbox next to the ``Histogram`` word |image0| near the top.
 
 #. A histogram of the first channel which is on will appear. Note that when you move the rendering settings sliders beneath the histogram, the histogram updates to showing the channel you just manipulated.
 
    |image0b|
 
-#. Click the Crosshairs icon |image3| at the top-right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on. 
+#. Click the ``Crosshairs`` icon |image3| at the top-right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on.
 
    .. image:: images/Iviewer4.png
 
-#. The ROIs tab  |image5|\  includes tools for viewing and drawing ROIs on the Image. These are saved back to the OMERO server. Select the arrow tool in the right-hand pane |image6| and draw an arrow on the Image, using Click-Move-Click (not drag), pointing to a feature in the Image and save it using the Save button located in the upper part of the right-hand pane. Draw also a couple of other ROIs on different Z planes.
+#. The ROIs tab  |image5|\  includes tools for viewing and drawing ROIs on the Image. These are saved back to the OMERO server. Select the ``arrow tool`` in the right-hand pane |image6| and draw an arrow on the Image, using Click-Move-Click (not drag), pointing to a feature in the Image and save it using the ``Save`` button located in the upper part of the right-hand pane. Draw also a couple of other ROIs on different Z planes.
 
    - Dragging on the Image is used for panning the image.
 
-   - Shift-drag rotates the image (using selection tool) or draws “freehand” (polygon, polyline, rectangle and ellipse).
+   - Shift-drag rotates the image (using selection tool) or draws ``freehand`` (polygon, polyline, rectangle and ellipse).
 
       .. image:: images/Iviewer7.png
 
@@ -93,11 +93,11 @@ default viewer for OMERO.web.
 
    .. image:: images/Iviewer8.png
 
-#. Select the Planes tab above the ROI table.
+#. Select the ``Planes`` tab above the ROI table.
 
    .. image:: images/Iviewer9.png
 
-#. The Planes tab gives you an overview of the ROIs distribution over the z or t sections. The boxes in the schema iin the Planes tab represent single z or t planes and are selectable.
+#. The ``Planes`` tab gives you an overview of the ROIs distribution over the z or t sections. The boxes in the schema iin the ``Planes`` tab represent single z or t planes and are selectable.
 
    .. image:: images/Iviewer10.png
 
@@ -109,13 +109,13 @@ default viewer for OMERO.web.
 
 #. The popups can be disabled for all ROIs on the image by clicking onto the cross of one popup and closing it, and re-enabled by using a context menu accessed by right-clicking onto the image.
 
-#. You can copy the values in the popup such as area (select and Ctrl + C) and paste them into your local documents.
+#. You can copy the values in the popup such as area (select and ``Ctrl + C``) and paste them into your local documents.
 
-#. Select several ROIs from different Z planes. You can select in the table (Shift-click to select a range) but also in the image itself using Cmd-drag to select multiple ROIs.
+#. Select several ROIs from different Z planes. You can select in the table (``Shift+click`` to select a range) but also in the image itself using ``Ctrl+drag`` (``Cmd-drag`` on Mac) to select multiple ROIs.
 
-#. Export the Intensities, areas and line lengths into Excel. Select, in the top-left corner ROIs > Export (Excel). This will export the values from the selected ROIs.
+#. Export the Intensities, areas and line lengths into Excel. Select, in the top-left corner ``ROIs > Export (Excel)``. This will export the values from the selected ROIs.
 
-#. Save the viewport by selecting in the top-left corner File > Save Viewport as PNG.
+#. Save the viewport by selecting in the top-left corner ``File > Save Viewport as PNG``.
 
 #. Compare the two channels of one of the Images in multi-image view:
 
@@ -127,25 +127,25 @@ default viewer for OMERO.web.
 
        .. image:: images/Iviewer12.png
 
-#. We can synchronize the viewers by adding them both to the same sync Group.
+#. We can synchronize the viewers by adding them both to the same ``sync Group``.
 
-    - Click the sync icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
+    - Click the ``sync`` icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
 
     - Repeat for the other viewer.
 
-    - Now both Images have the Z/T and View (zoom and position of viewport) synchronized. 
+    - Now both Images have the ``Z/T`` and ``View`` (zoom and position of viewport) synchronized.
 
        .. image:: images/Iviewer14.png
 
-#. Click on Info tab in iviewer now, and find, in the right-hand pane, the link to Dataset: |image15|\ . Click on that link. This will bring you back to the webclient.
+#. Click on ``Info`` tab in iviewer now, and find, in the right-hand pane, the link to ``Dataset``: |image15|\ . Click on that link. This will bring you back to the webclient.
 
-#. Adjust the channel names:
+#. Go back to OMERO.iviewer, click on the ``Settings`` tab and adjust the channel names:
 
     - Select any image inside that Dataset and click on the pencil |image16| icon in the right-hand pane next to Channels.
 
     - Input “DAPI” instead of channel “457” and “GFP”, “Aurora-B” and “CY-6\ ” for the other channels.
 
-    - Click the Apply to All button |image17| and confirm by clicking Continue.
+    - Click the ``Apply to All`` button |image17| and confirm by clicking ``Continue``.
 
 .. |image0| image:: images/Iviewer0.png
    :width: 0.79167in
