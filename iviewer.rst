@@ -73,9 +73,9 @@ default viewer for OMERO.web.
 
 #. Still staying in the "Settings" tab in the right-hand side of OMERO.iviewer, click on the checkbox next to the "Histogram" word |image0| near the top.
 
-#. A histogram of the first channel which is on will appear. Note that when you move the rendering settings slider beneath the histogram, the histogram reverts to showing the channel you just manipulated.
+#. A histogram of the first channel which is on will appear. Note that when you move the rendering settings sliders beneath the histogram, the histogram updates to showing the channel you just manipulated.
 
-   .. image:: images/Iviewer0b.png
+   |image0b|
 
 #. Click the Crosshairs icon |image3| at the top-right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on. 
 
@@ -151,8 +151,8 @@ default viewer for OMERO.web.
    :width: 0.79167in
    :height: 0.27083in
 .. |image0b| image:: images/Iviewer0b.png
-   :width: 0.79167in
-   :height: 0.27083in
+   :width: 2.7in
+   :height: 3in
 .. |image1| image:: images/Iviewer1.png
    :width: 0.79167in
    :height: 0.27083in
