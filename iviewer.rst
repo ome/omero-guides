@@ -73,7 +73,7 @@ default viewer for OMERO.web.
 
 #. Still staying in the "Settings" tab in the right-hand side of OMERO.iviewer, click on the checkbox next to the "Histogram" word |image0| near the top.
 
-#. A histogram of the first channel which is on will appear. Note that when you move the rendering settings slider beneath the histogram, the histogram reverst to showing the channel you just manipulated.
+#. A histogram of the first channel which is on will appear. Note that when you move the rendering settings slider beneath the histogram, the histogram reverts to showing the channel you just manipulated.
 
    .. image:: images/Iviewer0b.png
 
