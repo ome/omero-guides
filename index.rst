@@ -9,4 +9,5 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
-   iviewer
+   iviewer_viewing
+   iviewer_rois

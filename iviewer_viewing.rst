@@ -1,5 +1,5 @@
-OMERO.iviewer
-=============
+View images in OMERO.iviewer
+============================
 
 We introduce 
 OMERO.iviewer, a 2D viewer which can
@@ -38,7 +38,7 @@ We will show here:
 Resources
 ---------
 
-New features video
+New features video (ROI popups, ROIs on multi-z or multi-t images)
 
 -  https://youtu.be/yDW5Sg0I1GU
 
