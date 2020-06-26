@@ -1,8 +1,7 @@
 Work with ROIs in OMERO.iviewer
 ===============================
 
-We introduce 
-the ability of OMERO.iviewer to work with ROIs, to draw, edit, annotate and evaluate ROIs in the images. In this way, a simple image analysis can be achieved, such as getting the intensity measurements inside the pixels of the ROIs and sizes of the ROIs, such as areas for polygons and lengths for lines and polylines.
+Here, the ability of OMERO.iviewer to work with ROIs, to draw, edit, annotate and evaluate ROIs in the images is shown. In this way, a simple image analysis can be achieved, such as getting the intensity measurements inside the pixels of the ROIs and sizes of the ROIs, such as areas for polygons and lengths for lines and polylines.
 
 Description
 -----------
