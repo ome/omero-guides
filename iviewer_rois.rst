@@ -1,12 +1,12 @@
 Work with ROIs in OMERO.iviewer
 ===============================
 
-Here, the ability of OMERO.iviewer to work with ROIs, to draw, edit, annotate and evaluate ROIs in the images is shown. In this way, a simple image analysis can be achieved, such as getting the intensity measurements inside the pixels of the ROIs and sizes of the ROIs, such as areas for polygons and lengths for lines and polylines.
+In this section, we cover the ability of OMERO.iviewer to work with ROIs, to draw, edit, annotate and evaluate ROIs in the images is shown. In this way, a simple image analysis can be achieved, such as getting the intensity measurements inside the pixels of the ROIs and sizes of the ROIs, such as areas for polygons and lengths for lines and polylines.
 
 Description
 -----------
 
-We will show here:
+We will show:
 
 -  How to inspect the intensities
 
@@ -14,7 +14,7 @@ We will show here:
 
 -  How to view ROIs associated with different z or t planes
 
--  How to use Planes tab in OMERO.iviewer to see the spread of ROIs in multi-z, t images
+-  How to use the ``Planes`` tab in OMERO.iviewer to see the spread of ROIs in multi-z, t images
 
 -  How to create comments on ROIs and enable and disable the ROI popups
 
@@ -58,7 +58,7 @@ Step-by-Step
 
    .. image:: images/Iviewer4.png
 
-#. The ROIs tab  |image5|\  includes tools for viewing and drawing ROIs on the Image. These are saved back to the OMERO server. Select the ``arrow tool`` in the right-hand pane |image6| and draw an arrow on the Image, using Click-Move-Click (not drag), pointing to a feature in the Image and save it using the ``Save`` button located in the upper part of the right-hand pane. Draw also a couple of other ROIs on different Z planes.
+#. The ``ROIs`` tab |image5|\  includes tools for viewing and drawing ROIs on the Image. These are saved back to the OMERO server. Select the ``arrow tool`` in the right-hand pane |image6| and draw an arrow on the Image, using Click-Move-Click (not drag), pointing to a feature in the Image and save it using the ``Save`` button located in the upper part of the right-hand pane. Draw also a couple of other ROIs on different Z planes.
 
    - Dragging on the Image is used for panning the image.
 
