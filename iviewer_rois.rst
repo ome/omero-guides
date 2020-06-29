@@ -137,4 +137,3 @@ Step-by-Step
    :width: 0.78125in
    :height: 0.23958in
 
-
