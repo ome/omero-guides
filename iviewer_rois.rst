@@ -88,7 +88,7 @@ Step-by-Step
 
 #. You can copy the values in the popup such as area (select and ``Ctrl + C``) and paste them into your local documents.
 
-#. Select several ROIs from different Z planes. You can select in the table (``Shift+click`` to select a range) but also in the image itself using ``Ctrl+drag`` (``Cmd-drag`` on Mac) to select multiple ROIs.
+#. Select several ROIs from different z planes. You can select in the table (``Shift+click`` to select a range) but also in the image itself using ``Ctrl+drag`` (``Cmd-drag`` on Mac) to select multiple ROIs.
 
 #. Export the Intensities, areas and line lengths into Excel. Select, in the top-left corner ``ROIs > Export (Excel)``. This will export the values from the selected ROIs.
 
@@ -136,4 +136,3 @@ Step-by-Step
 .. |image17| image:: images/Iviewer17.png
    :width: 0.78125in
    :height: 0.23958in
-
