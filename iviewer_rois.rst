@@ -74,7 +74,7 @@ Step-by-Step
 
    .. image:: images/Iviewer9.png
 
-#. The ``Planes`` tab gives you an overview of the ROIs distribution over the z or t sections. The boxes in the schema iin the ``Planes`` tab represent single z or t planes and are selectable.
+#. The ``Planes`` tab gives you an overview of the ROIs distribution over the z or t sections. The boxes in the schema in the ``Planes`` tab represent single z or t planes and are selectable.
 
    .. image:: images/Iviewer10.png
 
@@ -136,6 +136,5 @@ Step-by-Step
 .. |image17| image:: images/Iviewer17.png
    :width: 0.78125in
    :height: 0.23958in
-
 
 
