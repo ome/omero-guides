@@ -1,13 +1,17 @@
-Training example
-================
+OMERO walkthrough example
+=========================
 
-In this document, we go through a common workflow that a scientist wishing to use OMERO will follow:
+In this document, we go through a common workflow that a scientist wishing to use OMERO might follow:
 
  * Import data using the Desktop client.
- * View images using the OMERO.iviewer plugin
- * Analyze images using a 3rd party tool e.g. Fiji.
+ * View images using the OMERO.iviewer plugin.
+ * Analyze images using a 3rd party tool, e.g. Fiji.
  * Generate a figure using OMERO.figure.
 
+
+
+Import
+------
 
 :doc:`upload/docs/import-desktop-client`
 
@@ -16,6 +20,8 @@ In this document, we go through a common workflow that a scientist wishing to us
     :start-line: 3
     :end-before: Setup
 
+View
+----
 
 :doc:`iviewer/docs/iviewer`
 
@@ -23,12 +29,17 @@ In this document, we go through a common workflow that a scientist wishing to us
     :start-line: 3
     :end-before: Resources
 
+Analyze
+-------
+
 :doc:`fiji/docs/manual_analysis`
 
 .. include:: fiji/docs/manual_analysis.rst
     :start-line: 3
     :end-before: **Setup
 
+Present or publish data
+-----------------------
 
 :doc:`figure/docs/omero_figure`
 
