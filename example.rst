@@ -20,12 +20,17 @@ Import
     :start-line: 3
     :end-before: Setup
 
-View
-----
+View and inspect intensities
+----------------------------
 
-:doc:`iviewer/docs/iviewer`
+:doc:`iviewer/docs/index`
 
-.. include:: iviewer/docs/iviewer.rst
+
+.. include:: iviewer/docs/iviewer_viewing.rst
+    :start-line: 3
+    :end-before: Resources
+
+.. include:: iviewer/docs/iviewer_rois.rst
     :start-line: 3
     :end-before: Resources
 
