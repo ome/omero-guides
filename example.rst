@@ -15,7 +15,6 @@ Import
 
 :doc:`upload/docs/import-desktop-client`
 
-
 .. include:: upload/docs/import-desktop-client.rst
     :start-line: 3
     :end-before: Setup
@@ -23,9 +22,18 @@ Import
 View
 ----
 
-:doc:`iviewer/docs/iviewer`
+:doc:`iviewer/docs/iviewer_viewing`
 
-.. include:: iviewer/docs/iviewer.rst
+.. include:: iviewer/docs/iviewer_viewing.rst
+    :start-line: 3
+    :end-before: Resources
+
+Inspect intensities, draw and evaluate ROIs
+-------------------------------------------
+
+:doc:`iviewer/docs/iviewer_rois`
+
+.. include:: iviewer/docs/iviewer_rois.rst
     :start-line: 3
     :end-before: Resources
 
