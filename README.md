@@ -26,9 +26,11 @@ We recommend to install the dependencies in a virtual environment.
 Initializes the submodule.
 
 * Run:
+
   ``$ git submodule update``
 
-* Fetch the contents of the submodule
+* Fetch the contents of the submodule:
+
   ``$ git submodule update --recursive --remote``
 
 You should now ready to build the documentation, by running ``make html``.
