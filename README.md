@@ -33,5 +33,5 @@ Initialize the submodule.
 
   ``$ git submodule update --recursive --remote``
 
-You should now ready to build the documentation, by running ``make html``.
+You should now be ready to build the documentation, by running ``make html``.
 The generated ``html`` files should now be available under ``_build``.
