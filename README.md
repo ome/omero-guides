@@ -23,7 +23,7 @@ We recommend to install the dependencies in a virtual environment.
 
   ``$ pip install -r requirements.txt``
 
-Initializes the submodule.
+Initialize the submodule.
 
 * Run:
 
