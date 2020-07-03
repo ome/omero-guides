@@ -62,3 +62,6 @@ Click on the link below to get to the full content of this chapter. The excerpts
 
 Set up OMERO for publication of data
 ------------------------------------
+
+See the ``Prepare data for publication using OMERO`` chapter of 
+:doc:`introduction/docs/data-management`
