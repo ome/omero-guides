@@ -1,13 +1,14 @@
 OMERO walkthrough for facility managers
 =======================================
 
-In this document, we go through a common workflow that a imaging facility manager or other super-user of OMERO wishing to use OMERO and facilitate OMERO usage for others might follow:
+In this document, we go through a common workflow that an imaging facility manager or other super-user of OMERO wishing to use OMERO and facilitate OMERO usage for others might follow:
 
  * Create and manage Groups and Users.
- * Import data for others and do large imports.
+ * Import data for others.
+ * Import large or heterogeneous data for others.
  * Manage data for others.
  * Set up OMERO for publication of data.
- * Getting users started.
+ * Get users started.
 
 
 Administrate Groups and Users
@@ -63,5 +64,10 @@ Click on the link below to get to the full content of this chapter. The excerpts
 Set up OMERO for publication of data
 ------------------------------------
 
-See the ``Prepare data for publication using OMERO`` chapter of 
-:doc:`introduction/docs/data-management`
+Click on the link below to get to the full content of this chapter. The excerpts of the chapter are highlighted below the link.
+
+:doc:`introduction/docs/data-publication`
+
+.. include:: introduction/docs/data-publication.rst
+    :start-line: 3
+    :end-before: Setup
