@@ -1,7 +1,7 @@
 OMERO walkthrough for facility managers
 =======================================
 
-In this document, we go through a common workflow that an imaging facility manager or other super-user of OMERO wishing to use OMERO and facilitate OMERO usage for others might follow:
+In this document, we go through a common workflow that an imaging facility manager who facilitates OMERO usage for others might follow:
 
  * Create and manage Groups and Users.
  * Import data for others.
@@ -75,7 +75,7 @@ Click on the link below to get to the full content of this chapter. The excerpts
 Get users started
 -----------------
 
-Here we describe how to get users started. This is a walkthrough for a facility manager or another potential super-user of OMERO in charge of introducing new users to OMERO.
+Here we describe how to get users started. This is a walkthrough for a facility manager in charge of introducing new users to OMERO.
 
 Step-by-Step
 ------------
