@@ -9,6 +9,7 @@ Getting started
 
 :doc:`example` presents a step-by-step example of a typical OMERO user workflow from import to figure creation.
 
+:doc:`example_facility_manager` gives a typical workflow of a facility manager helping and guiding their users to use the local OMERO ecosystem.
 
 General
 -------
@@ -92,3 +93,5 @@ Powered by
    web_addons
    write_guide
    example
+   example_facility_manager
+
