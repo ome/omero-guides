@@ -93,4 +93,3 @@ Step-by-Step
 #. Consult with the user the analysis possibilities when using 3rd party tools with OMERO, as listed in :doc:`external_tools`.
 
 #. Mention :doc:`figure/docs/index`. This will help to raise the usage of OMERO in your institution.
->>>>>>> c04620e... Make sentence less scary
