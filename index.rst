@@ -93,3 +93,5 @@ Powered by
    web_addons
    write_guide
    example
+   example_facility_manager
+
