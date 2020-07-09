@@ -354,7 +354,7 @@ rst_epilog = """
 .. _ilastik: ilastik/docs/index.html
 .. _orbit: orbit/docs/index.html
 .. _qupath: qupath/docs/index.html
-.. _trackmate: trackmate/docs/index.html
+.. _tm: trackmate/docs/index.html
 .. _cellprofiler: cellprofiler/docs/index.html
 .. _r: r/docs/index.html
 .. _matlab: matlab/docs/index.html
