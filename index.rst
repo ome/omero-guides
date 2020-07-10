@@ -32,7 +32,7 @@ All the guides are hosted on GitHub. If you wish to create a new guide, check th
 
 Click on the icon to go the relevant part of the guide.
 
-\ |fiji|_ \ |ilastik|_  \ |cellprofiler|_ \ |trackmate|_  \ |orbit|_ \ |qupath|_
+\ |fiji|_ \ |ilastik|_  \ |cellprofiler|_ \ |tm|_  \ |orbit|_ \ |qupath|_
 
 \ |r|_ \ |matlab|_ \ |python|_ \ |java|_
 
@@ -57,7 +57,7 @@ Powered by
    :width: 1.5in
    :height: 1in
 
-.. |trackmate| image:: images/logos/trackmate.png
+.. |tm| image:: images/logos/trackmate.png
    :width: 1.96374in
    :height: 1.15278in
 

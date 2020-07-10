@@ -286,7 +286,7 @@ texinfo_documents = [
 epub_title = u'OMERO guide'
 epub_author = u'Open Microscopy Environment'
 epub_publisher = u'Open Microscopy Environment'
-epub_copyright = u'2019, Open Microscopy Environment'
+epub_copyright = u'2019-2020, Open Microscopy Environment'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'OMERO guide'
@@ -354,7 +354,7 @@ rst_epilog = """
 .. _ilastik: ilastik/docs/index.html
 .. _orbit: orbit/docs/index.html
 .. _qupath: qupath/docs/index.html
-.. _trackmate: trackmate/docs/index.html
+.. _tm: trackmate/docs/index.html
 .. _cellprofiler: cellprofiler/docs/index.html
 .. _r: r/docs/index.html
 .. _matlab: matlab/docs/index.html

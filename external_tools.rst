@@ -34,7 +34,7 @@ or the API of those tools.
      - .. include:: qupath/docs/index.rst
          :start-line: 3
          :end-before: Contents
-   * - \ |trackmate|_
+   * - \ |tm|_
      - :doc:`trackmate/docs/index`
      - .. include:: trackmate/docs/index.rst
          :start-line: 3
@@ -45,21 +45,26 @@ or the API of those tools.
 .. |fiji| image:: images/logos/fiji.png
    :width: 1.125in
    :height: 1.125in
+
 .. |ilastik| image:: images/logos/ilastik.png
    :width: 1.02778in
    :height: 1.02778in
+
 .. |orbit| image:: images/logos/orbit.png
    :width: 1.04057in
    :height: 1.01389in
+
 .. |qupath| image:: images/logos/qupath.png
    :width: 1.5in
    :height: 1in
-.. |trackmate| image:: images/logos/trackmate.png
-   :width: 1.96374in
-   :height: 1.15278in
+
 .. |cellprofiler| image:: images/logos/cellprofiler.png
    :width: 1.09234in
    :height: 1.08267in
+
+.. |tm| image:: images/logos/trackmate.png
+   :width: 1.96374in
+   :height: 1.15278in
 
 .. toctree::
     :maxdepth: 1
