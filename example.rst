@@ -44,7 +44,7 @@ Analyze
 
 .. include:: fiji/docs/manual_analysis.rst
     :start-line: 3
-    :end-before: **Setup
+    :end-before: Setup
 
 Present or publish data
 -----------------------
