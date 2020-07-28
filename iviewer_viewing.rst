@@ -61,6 +61,15 @@ Step-by-Step
 
    .. image:: images/Iviewer2.png
 
+
+#. To change the Lookup Table (LUT) of a particular channel, click on the downward facing arrow next to the channel label |image1b|.
+
+#. In the menu, select the LUT you wish to use.
+
+   |image1c|
+
+#. In the same menu, you can also invert the intensity of the channel by checking the checkbox on the top.
+
 #. Still staying in the ``Settings`` tab in the right-hand side of OMERO.iviewer, click on the checkbox next to the ``Histogram`` word |image0| near the top.
 
 #. A histogram of the first channel which is on will appear. Note that when you move the rendering settings sliders beneath the histogram, the histogram updates to showing the channel you just manipulated.
@@ -108,6 +117,10 @@ Step-by-Step
 .. |image1| image:: images/Iviewer1.png
    :width: 0.79167in
    :height: 0.27083in
+.. |image1b| image:: images/Iviewer1b.png
+   :width: 0.79167in
+.. |image1c| image:: images/Iviewer1c.png
+   :width: 2.7in
 .. |image3| image:: images/Iviewer3.png
    :width: 0.28125in
    :height: 0.33333in
