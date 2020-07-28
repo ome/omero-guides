@@ -17,6 +17,8 @@ We will show here:
 
 -  How to change rendering settings in OMERO.iviewer and scroll through z and t
 
+-  How to change the Lookup table and invert the displayed intensities for a particular channel
+
 -  How to use the Histogram feature
 
 -  How to zoom and rotate the image
