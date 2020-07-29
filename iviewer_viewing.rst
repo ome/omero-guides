@@ -102,14 +102,6 @@ Step-by-Step
 
 #. Click on ``Info`` tab in iviewer now, and find, in the right-hand pane, the link to ``Dataset``: |image15|\ . Click on that link. This will bring you back to the webclient.
 
-#. Go back to OMERO.iviewer, click on the ``Settings`` tab and adjust the channel names:
-
-    - Select any image inside that Dataset and click on the pencil |image16| icon in the right-hand pane next to Channels.
-
-    - Input “DAPI” instead of channel “457” and “GFP”, “Aurora-B” and “CY-6\ ” for the other channels.
-
-    - Click the ``Apply to All`` button |image17| and confirm by clicking ``Continue``.
-
 .. |image0| image:: images/Iviewer0.png
    :width: 0.79167in
    :height: 0.27083in
@@ -147,12 +139,7 @@ Step-by-Step
 .. |image15| image:: images/Iviewer15.png
    :width: 2.91667in
    :height: 0.29167in
-.. |image16| image:: images/Iviewer16.png
-   :width: 0.22917in
-   :height: 0.1875in
-.. |image17| image:: images/Iviewer17.png
-   :width: 0.78125in
-   :height: 0.23958in
+
 
 
 
