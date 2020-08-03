@@ -66,7 +66,7 @@ Step-by-Step
 
 #. To change the Lookup Table (LUT) of a particular channel, click on the downward facing arrow next to the channel label |image1b|.
 
-#. In the menu, select the LUT you wish to use.
+#. In the menu, select the LUT you wish to use. You can find here all the LUTs which are supported in ImageJ.
 
    |image1c|
 
