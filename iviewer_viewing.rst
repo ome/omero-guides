@@ -23,6 +23,8 @@ We will show here:
 
 -  How to zoom and rotate the image
 
+-  How to create a maximum intensity Projection and save it
+
 -  How to save a current viewport as png in OMERO.iviewer
 
 -  How to use and synchronize multiple viewer windows inside OMERO.iviewer
