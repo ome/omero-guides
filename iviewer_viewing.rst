@@ -78,6 +78,12 @@ Step-by-Step
 
    |image0b|
 
+#. Make a maximum intensity Projection of a z-stack by clicking the ``stack`` icon |image0c| in the bottom-left corner of the central pane, just under the z-scrollbar.
+
+#. Note that on the vertical z-scrollbar, there are now two sliders. Adjust the sliders to select the desired portion of the z-stack to be projected. The central pane will show a preview of your Projection.
+
+#. Save the Projection by selecting ``File > Save Projection as new image``. In the following dialog, click either ``Navigate to Image in Webclient`` or ``Open Image in ivewer``.
+
 #. Save the viewport by selecting in the top-left corner ``File > Save Viewport as PNG``.
 
 #. Compare the two channels of one of the Images in multi-image view:
@@ -108,6 +114,8 @@ Step-by-Step
 .. |image0b| image:: images/Iviewer0b.png
    :width: 2.7in
    :height: 3in
+.. |image0c| image:: images/Iviewer0c.png
+   :width: 0.4in
 .. |image1| image:: images/Iviewer1.png
    :width: 0.79167in
    :height: 0.27083in
