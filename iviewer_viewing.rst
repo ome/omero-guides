@@ -88,21 +88,31 @@ Step-by-Step
 
 #. Compare the two channels of one of the Images in multi-image view:
 
-    - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
+   - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
 
-    - Select one of the windows and in the right-hand pane switch the green channel off.
+   - Select one of the windows and in the right-hand pane switch the green channel off.
 
-    - On the other window, switch the blue channel off.
+   - On the other window, switch the blue channel off.
 
        .. image:: images/Iviewer12.png
 
-#. We can synchronize the viewers by adding them both to the same ``sync Group``.
+#. Work with images in the multi-view mode. There are several ways how to get full views of the images from the thumbnails in the left-hand column.
 
-    - Click the ``sync`` icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
+   - ``Clicking once`` on a thumbnail opens the corresponding image in the currently active central pane viewer window, replacing the image in that viewer window.
 
-    - Repeat for the other viewer.
+   - ``Double-clicking`` on a thumbnail opens a new central pane viewer window with the double-clicked thumbnail image.
 
-    - Now both Images have the ``Z/T`` and ``View`` (zoom and position of viewport) synchronized.
+   - ``Dragging and dropping`` a thumbnail into an existing central pane viewer window will replace the image in that window with the image corresponding to the thumbnail which was just dropped into that window.
+
+   - ``Dragging  and dropping`` a thumbnail onto the white canvas area in central pane will create a new viewer window.
+
+#. We can synchronize the central pane viewers by adding them both to the same ``sync Group``.
+
+   - Click the ``sync`` icon \ |image13| in the top-left corner and select the first option in the dropdown menu.
+
+   - Repeat for the other viewer.
+
+   - Now both Images have the ``Z/T`` and ``View`` (zoom and position of viewport) synchronized.
 
        .. image:: images/Iviewer14.png
 
