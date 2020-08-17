@@ -100,13 +100,13 @@ Step-by-Step
 
 #. Work with images in the multi-view mode. There are several ways to get full views of the images from the thumbnails in the left-hand column.
 
-   - ``Clicking once`` on a thumbnail opens the corresponding image in the currently active central pane viewer window, replacing the image in that viewer window.
+   - ``Click`` on a thumbnail to open the corresponding image in the currently active central pane viewer window, replacing the image in that viewer window.
 
-   - ``Double-clicking`` on a thumbnail opens a new central pane viewer window with the double-clicked thumbnail image.
+   - ``Double-click`` on a thumbnail to open a new central pane viewer window with the double-clicked thumbnail image.
 
-   - ``Dragging and dropping`` a thumbnail into an existing central pane viewer window will replace the image in that window with the image corresponding to the thumbnail which was just dropped into that window.
+   - ``Drag and drop`` a thumbnail into an existing central pane viewer window to replace the image in that window with the image corresponding to the thumbnail which you just dropped into it.
 
-   - ``Dragging  and dropping`` a thumbnail onto the white canvas area in the central pane will create a new viewer window.
+   - ``Drag and drop`` a thumbnail onto the white canvas area in the central pane to create a new viewer window.
 
 #. We can synchronize the central pane viewers by adding them both to the same ``sync Group``.
 
