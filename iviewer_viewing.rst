@@ -84,7 +84,7 @@ Step-by-Step
 
 #. Note that on the vertical z-scrollbar, there are now two sliders. Adjust the sliders to select the desired portion of the z-stack to be projected. The central pane will show a preview of your Projection.
 
-#. Save the Projection by selecting ``File > Save Projection as new image``. In the following dialog, click either ``Navigate to Image in Webclient`` or ``Open Image in ivewer``.
+#. Save the Projection by selecting ``File > Save Projection as new image``. In the following dialog, click either ``Navigate to Image in Webclient`` or ``Open Image in iviewer``.
 
 #. Save the viewport by selecting in the top-left corner ``File > Save Viewport as PNG``.
 
@@ -159,5 +159,4 @@ Step-by-Step
 .. |image15| image:: images/Iviewer15.png
    :width: 2.91667in
    :height: 0.29167in
-
 
