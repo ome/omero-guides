@@ -98,7 +98,7 @@ Step-by-Step
 
        .. image:: images/Iviewer12.png
 
-#. Work with images in the multi-view mode. There are several ways how to get full views of the images from the thumbnails in the left-hand column.
+#. Work with images in the multi-view mode. There are several ways to get full views of the images from the thumbnails in the left-hand column.
 
    - ``Clicking once`` on a thumbnail opens the corresponding image in the currently active central pane viewer window, replacing the image in that viewer window.
 
@@ -159,7 +159,6 @@ Step-by-Step
 .. |image15| image:: images/Iviewer15.png
    :width: 2.91667in
    :height: 0.29167in
-
 
 
 
