@@ -106,7 +106,7 @@ Step-by-Step
 
    - ``Dragging and dropping`` a thumbnail into an existing central pane viewer window will replace the image in that window with the image corresponding to the thumbnail which was just dropped into that window.
 
-   - ``Dragging  and dropping`` a thumbnail onto the white canvas area in central pane will create a new viewer window.
+   - ``Dragging  and dropping`` a thumbnail onto the white canvas area in the central pane will create a new viewer window.
 
 #. We can synchronize the central pane viewers by adding them both to the same ``sync Group``.
 
@@ -159,6 +159,5 @@ Step-by-Step
 .. |image15| image:: images/Iviewer15.png
    :width: 2.91667in
    :height: 0.29167in
-
 
 
