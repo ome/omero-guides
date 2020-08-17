@@ -150,7 +150,7 @@ Step-by-Step
 .. |image12| image:: images/Iviewer12.png
    :width: 0.46875in
    :height: 0.28125in
-.. |image13| image:: images/Iviewer13.png   
+.. |image13| image:: images/Iviewer13.png
    :width: 0.46875in
    :height: 0.28125in
 .. |image14| image:: images/Iviewer14.png
