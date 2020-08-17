@@ -80,9 +80,9 @@ Step-by-Step
 
    |image0b|
 
-#. Make a maximum intensity Projection of a z-stack by clicking the ``stack`` icon |image0c| in the bottom-left corner of the central pane, just under the z-scrollbar.
+#. Make a maximum intensity Projection of a z-stack by clicking the ``stack`` icon |image0c| in the bottom-left corner of the central pane, just under the z-slider.
 
-#. Note that on the vertical z-scrollbar, there are now two sliders. Adjust the sliders to select the desired portion of the z-stack to be projected. The central pane will show a preview of your Projection.
+#. Note that on the vertical z-slider, there are now two knobs. Adjust the knobs to select the desired portion of the z-stack to be projected. The central pane will show a preview of your Projection.
 
 #. Save the Projection by selecting ``File > Save Projection as new image``. In the following dialog, click either ``Navigate to Image in Webclient`` or ``Open Image in iviewer``.
 
