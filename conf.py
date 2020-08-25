@@ -375,15 +375,15 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 
 rst_epilog = """
-.. _fiji: fiji/docs/index.html
-.. _ilastik: ilastik/docs/index.html
-.. _orbit: orbit/docs/index.html
-.. _qupath: qupath/docs/index.html
-.. _tm: trackmate/docs/index.html
-.. _cellprofiler: cellprofiler/docs/index.html
-.. _r: r/docs/index.html
-.. _matlab: matlab/docs/index.html
-.. _python: python/docs/index.html
-.. _java: java/docs/index.html
+.. _fiji: https://omero-guides.readthedocs.io/projects/fiji/en/latest/
+.. _ilastik: https://omero-guides.readthedocs.io/projects/ilastik/en/latest/
+.. _orbit: https://omero-guides.readthedocs.io/projects/orbit/en/latest/
+.. _qupath: https://omero-guides.readthedocs.io/projects/qupath/en/latest/
+.. _tm: https://omero-guides.readthedocs.io/projects/trackmater/en/latest/
+.. _cellprofiler: https://omero-guides.readthedocs.io/projects/cellprofiler/en/latest/
+.. _r: https://omero-guides.readthedocs.io/projects/r/en/latest/
+.. _matlab: https://omero-guides.readthedocs.io/projects/matlab/en/latest/
+.. _python: https://omero-guides.readthedocs.io/projects/python/en/latest/
+.. _java: https://omero-guides.readthedocs.io/projects/java/en/latest/
 
 """
