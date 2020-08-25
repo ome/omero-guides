@@ -54,14 +54,3 @@ or the API of those tools.
 .. |tm| image:: images/logos/trackmate.png
    :width: 1.96374in
    :height: 1.15278in
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    cellprofiler/docs/index
-    fiji/docs/index
-    ilastik/docs/index
-    orbit/docs/index
-    qupath/docs/index
-    trackmate/docs/index

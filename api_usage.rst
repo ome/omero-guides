@@ -29,14 +29,3 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
 .. |python| image:: images/logos/python.png
 
 .. |java| image:: images/logos/java.png
-
-
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    java/docs/index
-    matlab/docs/index
-    python/docs/index
-    r/docs/index

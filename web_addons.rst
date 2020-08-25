@@ -27,12 +27,3 @@ OMERO.iviewe is a 2D viewer which can open and browse multi-t, multi-z and multi
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 OMERO.parade is a data mining tool.
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   figure/docs/index
-   fpbioimage/docs/index
-   iviewer/docs/index
-   parade/docs/index

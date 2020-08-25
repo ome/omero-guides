@@ -18,11 +18,3 @@ This section covers the general concepts of OMERO. Those concepts are demonstrat
 - :doc:`scripts_guide:index`
 
 This section describes how to run, write and manage the OMERO server-side scripts. Server-side scripts can be written in different programming languages but you will need to invoke the scripts using a Python wrapper.
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    upload/docs/index
-    introduction/docs/index
-    scripts/docs/index
