@@ -15,6 +15,7 @@
 import sys
 import os
 
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -35,7 +36,28 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.doctest',
     'sphinx.ext.inheritance_diagram',
-    "sphinx_rtd_theme"]
+    'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme']
+
+intersphinx_mapping = {'java_guide': ('https://omero-guides.readthedocs.io/projects/java/en/latest/', None),
+                       'matlab_guide': ('https://omero-guides.readthedocs.io/projects/matlab/en/latest/', None),
+                       'python_guide': ('https://omero-guides.readthedocs.io/projects/python/en/latest/', None),
+                       'r_guide': ('https://omero-guides.readthedocs.io/projects/r/en/latest/', None),
+                       'iviewer_guide': ('https://omero-guides.readthedocs.io/projects/iviewer/en/latest/', None),
+                       'figure_guide': ('https://omero-guides.readthedocs.io/projects/figure/en/latest/', None),
+                       'parade_guide': ('https://omero-guides.readthedocs.io/projects/parade/en/latest/', None),
+                       'fpbioimage_guide': ('https://omero-guides.readthedocs.io/projects/fpbioimage/en/latest/', None),
+                       'fiji_guide': ('https://omero-guides.readthedocs.io/projects/fiji/en/latest/', None),
+                       'trackmate_guide': ('https://omero-guides.readthedocs.io/projects/trackmate/en/latest/', None),
+                       'ilastik_guide': ('https://omero-guides.readthedocs.io/projects/ilastik/en/latest/', None),
+                       'cellprofiler_guide': ('https://omero-guides.readthedocs.io/projects/cellprofiler/en/latest/', None),
+                       'qupath_guide': ('https://omero-guides.readthedocs.io/projects/qupath/en/latest/', None),
+                       'orbit_guide': ('https://omero-guides.readthedocs.io/projects/orbit/en/latest/', None),
+                       'mde_guide': ('https://omero-guides.readthedocs.io/projects/omero-guide-mde/en/latest/', None),
+                       'download_guide': ('https://omero-guides.readthedocs.io/projects/download/en/latest/', None),
+                       'introduction_guide': ('https://omero-guides.readthedocs.io/projects/introduction/en/latest/', None),
+                       'upload_guide': ('https://omero-guides.readthedocs.io/projects/upload/en/latest/', None)
+                      }
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
