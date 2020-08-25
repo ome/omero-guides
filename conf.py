@@ -379,7 +379,7 @@ rst_epilog = """
 .. _ilastik: https://omero-guides.readthedocs.io/projects/ilastik/en/latest/
 .. _orbit: https://omero-guides.readthedocs.io/projects/orbit/en/latest/
 .. _qupath: https://omero-guides.readthedocs.io/projects/qupath/en/latest/
-.. _tm: https://omero-guides.readthedocs.io/projects/trackmater/en/latest/
+.. _tm: https://omero-guides.readthedocs.io/projects/trackmate/en/latest/
 .. _cellprofiler: https://omero-guides.readthedocs.io/projects/cellprofiler/en/latest/
 .. _r: https://omero-guides.readthedocs.io/projects/r/en/latest/
 .. _matlab: https://omero-guides.readthedocs.io/projects/matlab/en/latest/
