@@ -9,12 +9,10 @@ They require some additional setup steps.
 **Insight extensions**
 ----------------------
 
-:doc:`mde/docs/index`
-~~~~~~~~~~~~~~~~~~~~~
+:doc:`mde_guide:index`
+~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: mde/docs/index.rst
-    :start-line: 3
-    :end-before: Contents
+OMERO.mde is an extension of OMERO.importer to get an overview of available metadata provided by the selected image container and annotate images at import step by standardized key-value input forms. Changes of metadata provided by image will be saved as key-value pairs.
 
 .. toctree::
    :maxdepth: 2

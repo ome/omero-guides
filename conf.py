@@ -12,6 +12,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+import datetime
 import sys
 import os
 
@@ -56,7 +57,8 @@ intersphinx_mapping = {'java_guide': ('https://omero-guides.readthedocs.io/proje
                        'mde_guide': ('https://omero-guides.readthedocs.io/projects/omero-guide-mde/en/latest/', None),
                        'download_guide': ('https://omero-guides.readthedocs.io/projects/download/en/latest/', None),
                        'introduction_guide': ('https://omero-guides.readthedocs.io/projects/introduction/en/latest/', None),
-                       'upload_guide': ('https://omero-guides.readthedocs.io/projects/upload/en/latest/', None)
+                       'upload_guide': ('https://omero-guides.readthedocs.io/projects/upload/en/latest/', None),
+                       'scripts_guide': ('https://omero-guides.readthedocs.io/projects/scripts/en/latest/', None)
                       }
 
 # Add any paths that contain templates here, relative to this directory.
@@ -72,8 +74,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+author = u'Open Microscopy Environment'
 project = u'OMERO guide'
-copyright = u'2019, Open Microscopy Environment'
+copyright = u'2019-%d, ' % datetime.datetime.now().year + author
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -241,7 +244,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'OMEROguide.tex', u'OMERO guide Documentation',
-   u'Open Microscopy Environment', 'manual'),
+   author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -271,7 +274,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'omeroguide', u'OMERO guide Documentation',
-     [u'Open Microscopy Environment'], 1)
+     [author], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -285,7 +288,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'OMEROguide', u'OMERO guide Documentation',
-   u'Open Microscopy Environment', 'OMEROguide', 'One line description of project.',
+   author, 'OMEROguide', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -306,9 +309,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'OMERO guide'
-epub_author = u'Open Microscopy Environment'
-epub_publisher = u'Open Microscopy Environment'
-epub_copyright = u'2019-2020, Open Microscopy Environment'
+epub_author = author
+epub_publisher = author
+epub_copyright = u'2019-%d, ' % datetime.datetime.now().year + author
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'OMERO guide'

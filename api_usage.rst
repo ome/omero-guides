@@ -10,25 +10,17 @@ use a combination of Jupyter notebook and scripts to demonstrate how to use the 
    :widths: 25 25 50
 
    * - \ |java|_
-     - :doc:`java/docs/index`
-     - .. include:: java/docs/index.rst
-         :start-line: 3
-         :end-before: Contents
+     - :doc:`java_guide:index`
+     - The section demonstrates how to install and use the Java API. Jupyter notebooks and scripts are used to analyze data and save results back the server.
    * - \ |matlab|_
-     - :doc:`matlab/docs/index`
-     - .. include:: matlab/docs/index.rst
-         :start-line: 3
-         :end-before: Contents
+     - :doc:`matlab_guide:index`
+     - This section shows how to install and use the OMERO MATLAB toolbox. Various exercises demonstrate how to analyze data and stored the results back to server.
    * - \ |python|_
-     - :doc:`python/docs/index`
-     - .. include:: python/docs/index.rst
-         :start-line: 3
-         :end-before: Contents
+     - :doc:`python_guide:index`
+     - The section demonstrates how to install and use the Python API. Jupyter notebooks and scripts are used to analyze data and save results back the server.
    * - \ |r|_
-     - :doc:`r/docs/index`
-     - .. include:: r/docs/index.rst
-         :start-line: 3
-         :end-before: Contents
+     - :doc:`r_guide:index`
+     - This section shows how to install and use the R Gateway to analyze data. Jupyter notebooks are available to demonstrate some of the functionalities available.
 
 .. |r| image:: images/logos/r.png
 

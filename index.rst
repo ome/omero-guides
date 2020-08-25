@@ -34,7 +34,7 @@ Click on the icon to go the relevant part of the guide.
 
 \ |fiji|_ \ |ilastik|_  \ |cellprofiler|_ \ |tm|_  \ |orbit|_ \ |qupath|_
 
-\ |r|_ \ |matlab|_ \ |python|_ \ |java|_
+\ |r|_ \ |matlab|_ \ |python|_ \ |java|
 
 Powered by
 
