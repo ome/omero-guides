@@ -13,44 +13,36 @@ In this document, we go through a common workflow that a scientist wishing to us
 Import
 ------
 
-:doc:`upload/docs/import-desktop-client`
+:doc:`upload_guide:import-desktop-client`
 
-.. include:: upload/docs/import-desktop-client.rst
-    :start-line: 3
-    :end-before: Setup
+In the first part, we first show how to import data by yourself and for yourself into OMERO using various import strategies. This will be mainly done using the OMERO.insight desktop client.
+
+Second part of this import section will show how to import data for another user, using OMERO.insight. The user importing the data needs to have some `admin or restricted-admin <https://docs.openmicroscopy.org/latest/omero/sysadmins/restricted-admins.html>`__ privileges.
+
+The import for another user requires that the user doing the import has specific privileges. We will use the user importer1, this could be, for example, a facility manager.
 
 View
 ----
 
-:doc:`iviewer/docs/iviewer_viewing`
+:doc:`iviewer_guide:iviewer_viewing`
 
-.. include:: iviewer/docs/iviewer_viewing.rst
-    :start-line: 3
-    :end-before: Resources
+We introduce OMERO.iviewer, a 2D viewer which can open and browse multi-t, multi-z and multi-channel images and allows to draw and edit Regions of Interest. It also offers the ability to view several images at the same time and synchronize the view.
 
 Inspect intensities, draw and evaluate ROIs
 -------------------------------------------
 
-:doc:`iviewer/docs/iviewer_rois`
+:doc:`iviewer_guide:iviewer_rois`
 
-.. include:: iviewer/docs/iviewer_rois.rst
-    :start-line: 3
-    :end-before: Resources
+@e cover the ability of OMERO.iviewer to work with ROIs, to draw, edit, annotate and evaluate ROIs in the images is shown. In this way, a simple image analysis can be achieved, such as getting the intensity measurements inside the pixels of the ROIs and sizes of the ROIs, such as areas for polygons and lengths for lines and polylines.
 
 Analyze
 -------
 
-:doc:`fiji/docs/manual_analysis`
+:doc:`fiji_guide:manual_analysis`
 
-.. include:: fiji/docs/manual_analysis.rst
-    :start-line: 3
-    :end-before: Setup
+The following workflows should work both with ImageJ and Fiji, after these have been correctly set up with the OMERO plugin for Fiji/ImageJ.
 
 Present or publish data
 -----------------------
 
-:doc:`figure/docs/omero_figure`
-
-.. include:: figure/docs/omero_figure.rst
-    :start-line: 3
-    :end-before: **Setup
+:doc:`figure_guide:omero_figure`

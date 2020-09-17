@@ -2,7 +2,7 @@ OMERO guide
 ===========
 
 The OMERO guide offers step-by-step instructions on how to use components of the OMERO platform.
-To learn more about OMERO, we recommend that you first visit `https://www.openmicroscopy.org/omero/ <https://www.openmicroscopy.org/omero/>`_
+To learn more about OMERO, we recommend that you first visit `https://www.openmicroscopy.org/omero/ <https://www.openmicroscopy.org/omero/>`__.
 
 Getting started
 ---------------

@@ -12,8 +12,10 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+import datetime
 import sys
 import os
+
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -35,7 +37,29 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.doctest',
     'sphinx.ext.inheritance_diagram',
-    "sphinx_rtd_theme"]
+    'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme']
+
+intersphinx_mapping = {'java_guide': ('https://omero-guides.readthedocs.io/projects/java/en/latest/', None),
+                       'matlab_guide': ('https://omero-guides.readthedocs.io/projects/matlab/en/latest/', None),
+                       'python_guide': ('https://omero-guides.readthedocs.io/projects/python/en/latest/', None),
+                       'r_guide': ('https://omero-guides.readthedocs.io/projects/r/en/latest/', None),
+                       'iviewer_guide': ('https://omero-guides.readthedocs.io/projects/iviewer/en/latest/', None),
+                       'figure_guide': ('https://omero-guides.readthedocs.io/projects/figure/en/latest/', None),
+                       'parade_guide': ('https://omero-guides.readthedocs.io/projects/parade/en/latest/', None),
+                       'fpbioimage_guide': ('https://omero-guides.readthedocs.io/projects/fpbioimage/en/latest/', None),
+                       'fiji_guide': ('https://omero-guides.readthedocs.io/projects/fiji/en/latest/', None),
+                       'trackmate_guide': ('https://omero-guides.readthedocs.io/projects/trackmate/en/latest/', None),
+                       'ilastik_guide': ('https://omero-guides.readthedocs.io/projects/ilastik/en/latest/', None),
+                       'cellprofiler_guide': ('https://omero-guides.readthedocs.io/projects/cellprofiler/en/latest/', None),
+                       'qupath_guide': ('https://omero-guides.readthedocs.io/projects/qupath/en/latest/', None),
+                       'orbit_guide': ('https://omero-guides.readthedocs.io/projects/orbit/en/latest/', None),
+                       'mde_guide': ('https://omero-guides.readthedocs.io/projects/omero-guide-mde/en/latest/', None),
+                       'download_guide': ('https://omero-guides.readthedocs.io/projects/download/en/latest/', None),
+                       'introduction_guide': ('https://omero-guides.readthedocs.io/projects/introduction/en/latest/', None),
+                       'upload_guide': ('https://omero-guides.readthedocs.io/projects/upload/en/latest/', None),
+                       'scripts_guide': ('https://omero-guides.readthedocs.io/projects/scripts/en/latest/', None)
+                      }
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -50,8 +74,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+author = u'Open Microscopy Environment'
 project = u'OMERO guide'
-copyright = u'2019, Open Microscopy Environment'
+copyright = u'2019-%d, ' % datetime.datetime.now().year + author
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -219,7 +244,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'OMEROguide.tex', u'OMERO guide Documentation',
-   u'Open Microscopy Environment', 'manual'),
+   author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -249,7 +274,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'omeroguide', u'OMERO guide Documentation',
-     [u'Open Microscopy Environment'], 1)
+     [author], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -263,7 +288,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'OMEROguide', u'OMERO guide Documentation',
-   u'Open Microscopy Environment', 'OMEROguide', 'One line description of project.',
+   author, 'OMEROguide', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -284,9 +309,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'OMERO guide'
-epub_author = u'Open Microscopy Environment'
-epub_publisher = u'Open Microscopy Environment'
-epub_copyright = u'2019-2020, Open Microscopy Environment'
+epub_author = author
+epub_publisher = author
+epub_copyright = u'2019-%d, ' % datetime.datetime.now().year + author
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'OMERO guide'
@@ -350,15 +375,15 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 
 rst_epilog = """
-.. _fiji: fiji/docs/index.html
-.. _ilastik: ilastik/docs/index.html
-.. _orbit: orbit/docs/index.html
-.. _qupath: qupath/docs/index.html
-.. _tm: trackmate/docs/index.html
-.. _cellprofiler: cellprofiler/docs/index.html
-.. _r: r/docs/index.html
-.. _matlab: matlab/docs/index.html
-.. _python: python/docs/index.html
-.. _java: java/docs/index.html
+.. _fiji: https://omero-guides.readthedocs.io/projects/fiji/en/latest/
+.. _ilastik: https://omero-guides.readthedocs.io/projects/ilastik/en/latest/
+.. _orbit: https://omero-guides.readthedocs.io/projects/orbit/en/latest/
+.. _qupath: https://omero-guides.readthedocs.io/projects/qupath/en/latest/
+.. _tm: https://omero-guides.readthedocs.io/projects/trackmate/en/latest/
+.. _cellprofiler: https://omero-guides.readthedocs.io/projects/cellprofiler/en/latest/
+.. _r: https://omero-guides.readthedocs.io/projects/r/en/latest/
+.. _matlab: https://omero-guides.readthedocs.io/projects/matlab/en/latest/
+.. _python: https://omero-guides.readthedocs.io/projects/python/en/latest/
+.. _java: https://omero-guides.readthedocs.io/projects/java/en/latest/
 
 """
