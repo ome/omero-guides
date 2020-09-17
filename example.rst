@@ -22,18 +22,18 @@ Import
 View
 ----
 
-:doc:`iviewer/docs/iviewer_viewing`
+:doc:`iviewer/iviewer_viewing`
 
-.. include:: iviewer/docs/iviewer_viewing.rst
+.. include:: iviewer/iviewer_viewing.rst
     :start-line: 3
     :end-before: Resources
 
 Inspect intensities, draw and evaluate ROIs
 -------------------------------------------
 
-:doc:`iviewer/docs/iviewer_rois`
+:doc:`iviewer/iviewer_rois`
 
-.. include:: iviewer/docs/iviewer_rois.rst
+.. include:: iviewer/iviewer_rois.rst
     :start-line: 3
     :end-before: Resources
 

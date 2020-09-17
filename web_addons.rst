@@ -22,10 +22,10 @@ All the Web extensions can be installed using ``pip``. Check each app for config
     :start-line: 3
     :end-before: Contents
 
-:doc:`iviewer/docs/index`
+:doc:`iviewer/index`
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. include:: iviewer/docs/index.rst
+.. include:: iviewer/index.rst
     :start-line: 3
     :end-before: Contents
 
@@ -42,5 +42,5 @@ All the Web extensions can be installed using ``pip``. Check each app for config
 
    figure/docs/index
    fpbioimage/docs/index
-   iviewer/docs/index
+   iviewer/index
    parade/docs/index
