@@ -16,11 +16,15 @@ How to build locally
 
 We recommend to install the dependencies in a virtual environment.
 
-* Create an environment e.g. a [Conda](https://docs.conda.io/en/latest/) and activate it.
-* Clone this repository.
-* Go into the directory ``omero-guides``.
-* Install the required dependencies:
+* Create an environment e.g. using [Conda](https://docs.conda.io/en/latest/), activate it:
 
+  ``$ conda create -n omeroguides python=3.6``
+  ``$ conda activate omeroguides``
+
+* Clone this repository.
+* Go into the directory and install the required dependencies:
+
+  ``$ cd omero-guides``
   ``$ pip install -r requirements.txt``
 
 Initialize the submodule.
