@@ -1,11 +1,11 @@
 General concepts
 ================
 
-In this section we introduce general concepts about OMERO: data import, management, annotation, search, etc..
+Here we introduce general concepts about OMERO: data import, management, annotation, search, etc..
 
-- :doc:`upload/docs/import`
+- :doc:`upload/docs/index`
 
-.. include:: upload/docs/import.rst
+.. include:: upload/docs/index.rst
     :start-line: 3
     :end-before: Contents
 
