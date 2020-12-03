@@ -1,7 +1,7 @@
 General concepts
 ================
 
-Here we introduce general concepts about OMERO: data import, management, annotation, search, etc..
+Here we introduce general concepts about OMERO: image import, metadata upload, management, annotation, search and server-side scripts.
 
 - :doc:`upload/docs/index`
 
