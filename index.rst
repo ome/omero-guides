@@ -3,7 +3,7 @@ OMERO guide
 
 The OMERO guide offers step-by-step instructions on how to use components of the OMERO platform.
 
-To learn more about OMERO, we recommend that you first visit `https://www.openmicroscopy.org/omero/ <https://www.openmicroscopy.org/omero/>`_
+To learn more about OMERO, we recommend that you first visit the `Open Microscopy Environment Website <https://www.openmicroscopy.org/omero/>`_.
 
 You can also watch videos of OMERO features or workshop recordings on the `Open Microscopy Environment YouTube channel <https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ/videos>`_.
 
