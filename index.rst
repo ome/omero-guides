@@ -30,6 +30,10 @@ and how to use those extensions points e.g. OMERO.iviewer, OMERO.figure, OMERO.p
 
 :doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik.
 
+Prepare a training
+------------------
+
+:doc:`training` presents a step-by-step example of a setup needed to get a training server similar to the one used by the OME Team.
 
 All the guides are hosted on GitHub. If you wish to create a new guide, check the instructions on :doc:`write_guide`.
 
@@ -97,4 +101,5 @@ Powered by
    write_guide
    example
    example_facility_manager
+   training
 
