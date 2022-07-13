@@ -53,4 +53,4 @@ Present or publish data
 
 .. include:: figure/docs/omero_figure.rst
     :start-line: 3
-    :end-before: **Setup
+    :end-before: Setup
