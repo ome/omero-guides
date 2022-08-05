@@ -30,6 +30,8 @@ and how to use those extensions points e.g. OMERO.iviewer, OMERO.figure, OMERO.p
 
 :doc:`external_tools` introduces how to analyze data using third party tools e.g. Fiji, CellProfiler, ilastik.
 
+:doc:`install` introduces how to install OMERO.
+
 Prepare a training
 ------------------
 
@@ -101,5 +103,5 @@ Powered by
    write_guide
    example
    example_facility_manager
+   install
    training
-
