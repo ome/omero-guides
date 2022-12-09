@@ -66,11 +66,11 @@ to import the images for trainer-1 and trainer-2.
 
 The `script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/in_place_import_as.sh>`_ assumes by default `in-place imports <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#in-place-import-using-the-cli>`_. You can adjust it for "classsical", non-in-place import by deleting the ``--transfer=ln_s`` from the script lines or, if using the `bulk file <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#bulk-import-using-the-cli>`_ workflow, comment out the ``transfer`` line from the bulk file.
 
-Image data can also be populated by a `python script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/idr_copy_plate.py>`_ which copies images as pixeldata (i.e. not the original images) from `IDR <http://idr.openmicroscopy.org/>`_ but can be adjusted to point to other OMERO.servers. Note that the script is only creating images of single T and Z, and thus reducing the original images dimensions::
+Image data can also be populated by a `python script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/idr_copy_plate.py>`_ which copies images as pixeldata (i.e. not the original images) from `IDR <http://idr.openmicroscopy.org/>`_ by default. You can adjust the `appropriate line <https://github.com/ome/training-scripts/blob/6f6866b21be4cbf48cafe2756899a21b4764b47e/maintenance/scripts/idr_copy_plate.py#L80>`_ to copy from other OMERO.servers. Note that the script is only creating `images of single T and Z <https://github.com/ome/training-scripts/blob/6f6866b21be4cbf48cafe2756899a21b4764b47e/maintenance/scripts/idr_copy_plate.py#L36>`_, and thus reducing the original images dimensions in case these are multi-z or T images::
 
     $ python idr_copy_plate.py trainer-1 --server $YOUR_SERVER_ADDRESS $PASSWORD $PLATE_ID
 
-which will copy the Plate from IDR as trainer-1 into your server.
+will copy the Plate with $PLATE_ID from IDR as trainer-1 into your server.
 
 
 Import metadata
@@ -100,7 +100,6 @@ Annotate images using training-scripts:
 
     $ python copy_tags_ratings.py to-tag $PASSWORD --server $YOUR_SERVER_ADDRESS
 
-
 Add analytical metadata
 -----------------------
 
@@ -110,3 +109,16 @@ containing Datasets with Images which creates an OMERO.table and a CSV file
 with results and attaches these to that Project in OMERO.
 
 These analytical results can be used to `showcase OMERO.parade <https://omero-guides.readthedocs.io/en/latest/parade/docs/omero_parade.html>`_.
+
+Cleanup scripts
+---------------
+
+It might be of great advantage to be able to clean up in batches, but still selectively, metadata added to the images on your training server.
+
+- `Delete ROIs <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/delete_ROIs.py>`_ on all Images inside Datasets of specified name for all users on the server who have such Datasets. In the example below, the Dataset's name is ``with-rois``. The $PASSWORD is the password of the user deleting the ROIs. The deleting user is ``trainer-1`` by default.::
+
+    $ python delete_ROIs.py --datasetname with-rois --server $YOUR_SERVER_ADDRESS $PASSWORD
+
+- `Delete Annotations <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/delete_annotations.py>`_ on all Images inside Datasets of specified name for all users on the server who have such Datasets. In the example below, the Dataset's name is ``western-blots`` and the deleted annotation type is ``FileAnnotation``. All other annotation types such as ``TagAnnotation`` etc. will be preserved. The $PASSWORD is the password of the user deleting the ROIs. The deleting user is ``trainer-1`` by default.::
+
+    $ python delete_annotations.py --anntype file  --namespace none --server $YOUR_SERVER_ADDRESS $PASSWORD western-blots
