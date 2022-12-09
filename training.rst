@@ -3,7 +3,7 @@ Prepare a training on OMERO
 
 This chapter describes a setup of a training OMERO.server at 
 your institution. Further, it gives overview of the other training
-resources as well as hints for trainers about how to present OMERO in a training session.
+resources as well as hints for trainers about how to present OMERO during a training session.
 
 Resources
 ---------
