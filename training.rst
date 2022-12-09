@@ -25,7 +25,7 @@ Setup of scripts and OMERO.cli environment
 Spin up a training server
 -------------------------
 
-Get an empty box or virtual machine with CentOS 7.
+System requirements for an OMERO.server are specified in the `documentation <https://omero.readthedocs.io/en/stable/sysadmins/system-requirements.html>`_. All  training servers used by the OME Team run in VMs with CentOS 7.
 
 We recommend to use the Ansible management software and use the provided Ansible playbook to install the OMERO.server for training, as this gives you the exact blueprint of the server setup used in trainings by the OME Team.
 
