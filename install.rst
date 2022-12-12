@@ -50,7 +50,7 @@ Clone the repository for the one-node example::
     $ git clone https://github.com/ome/ansible-example-omero-onenode.git
     $ cd ansible-example-omero-onenode	
 
-Install requrements::
+Install the requirements::
 
     $ ansible-galaxy install -r requirements.yml
 
