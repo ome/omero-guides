@@ -88,7 +88,7 @@ Annotate images using training-scripts:
 
     $ python key_value_pairs.py $PASSWORD big-dataset --server $YOUR_SERVER_ADDRESS
 
-- `Calibrate images <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/calibrate_images.py>`_. The command below will calibrate all the images within Dataset named ``western-blots`` to `0.33 micrometers per pixel <https://github.com/ome/training-scripts/blob/6f6866b21be4cbf48cafe2756899a21b4764b47e/maintenance/scripts/calibrate_images.py#L72>`_ for all 50 users in your server. The $PASSWORD for all the users must be the same.::
+- `Calibrate images <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/calibrate_images.py>`_. The command below will calibrate all the images within Dataset named ``western-blots`` to `0.33 micrometers per pixel <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/calibrate_images.py#L72>`_ for all 50 users in your server. The $PASSWORD for all the users must be the same.::
 
     $ python calibrate_images.py $PASSWORD western-blots --server $YOUR_SERVER_ADDRESS
 
