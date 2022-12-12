@@ -92,7 +92,7 @@ Annotate images using training-scripts:
 
     $ python calibrate_images.py $PASSWORD western-blots --server $YOUR_SERVER_ADDRESS
 
-- `Add timestamps <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/set_timestamps.py>`_. The command below will set timestamps on the timelapse images within Dataset named `timestamps` with `delta T of 300 seconds <https://github.com/ome/training-scripts/blob/6f6866b21be4cbf48cafe2756899a21b4764b47e/maintenance/scripts/set_timestamps.py#L71>`_ for all 50 users in your server. The $PASSWORD for all the users must be the same.::
+- `Add timestamps <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/set_timestamps.py>`_. The command below will set timestamps on the timelapse images within Dataset named `timestamps` with `delta T of 300 seconds <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/set_timestamps.py#L71>`_ for all 50 users in your server. The $PASSWORD for all the users must be the same.::
 
     $ python set_timestamps.py $PASSWORD timestamp --server $YOUR_SERVER_ADDRESS
 
