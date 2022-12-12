@@ -33,7 +33,7 @@ You can use the exact `training ansible playbook <https://github.com/ome/prod-pl
 
 You also have the option to follow the server installation steps in the `sysadmin documentation <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-installation.html>`_. In this case, you will have to install `Apps for OMERO.web <https://www.openmicroscopy.org/omero/apps/>`_ in separate, post installation steps. We recommend to install all apps listed on the webpage except OMERO.gallery and OMERO.mapr. 
 
-In case any other installation method was used than `training ansible playbook <https://github.com/ome/prod-playbooks/blob/master/omero/training-server/playbook.yml>`_, you have to also set up the server configuration according to the `configuration block in the playbook <https://github.com/ome/prod-playbooks/blob/c72014f7f5a181d4d4daad3b86045f1c4e41a75b/omero/training-server/playbook.yml#L473>`_.
+In case any other installation method was used than `training ansible playbook <https://github.com/ome/prod-playbooks/blob/master/omero/training-server/playbook.yml>`_, you have to also set up the server configuration according to the `configuration block in the playbook <https://github.com/ome/prod-playbooks/blob/master/omero/training-server/playbook.yml#L47>`_.
 
 Set up groups and users
 -----------------------
