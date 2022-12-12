@@ -54,7 +54,7 @@ Install the requirements::
 
     $ ansible-galaxy install -r requirements.yml
 
-Edit the file ``hosts.yml`` in the same directory and replace the YOUR-HOST-NAME variable with a name of your CentOS 7 box you prepared in the step above to install OMERO on, e.g. ``foo.example.com`` or ``localhost``)::
+Edit the file ``hosts.yml`` in the same directory and replace the YOUR-HOST-NAME variable with a name of your machine you prepared in the step above to install OMERO on, e.g. ``foo.example.com`` or ``localhost``)::
 
     all:
       hosts:
