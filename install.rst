@@ -66,7 +66,7 @@ Edit the ``playbook.yml`` file to change the OMERO root password (by default ``C
 
 Start OMERO.insight or a Command Line Interface (CLI) and log in to ``YOUR-HOST-NAME`` with the username ``root`` and the password you have set in the ``playbook.yml`` above.
 
-Go to ``https://YOUR-HOST-NAME:4080/webclient/`` in your browser and log in to OMERO.web with the same credentials you used for OMERO.insight above. In case you are on the same machine where you installed your OMERO, go to `http://localhost:4080/webclient/ <http://localhost:4080/webclient/>`_ to access your OMERO.web locally.
+Go to ``https://YOUR-HOST-NAME:4080/webclient/`` in your browser and log in to OMERO.web with the same credentials used above for OMERO.insight. In case you are on the same machine where you installed your OMERO, go to `http://localhost:4080/webclient/ <http://localhost:4080/webclient/>`_ to access your OMERO.web locally.
 
 Docker
 ------
