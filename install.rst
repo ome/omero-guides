@@ -17,7 +17,7 @@ We will show here:
 
 -  How to configure OMERO.server to work with LDAP, both using Ansible or using manual configuration.
 
--  How to install applications for OMERO.web, such as OMERO.figure.
+-  How to install applications such as OMERO.figure for OMERO.web.
 
 Resources
 ---------
