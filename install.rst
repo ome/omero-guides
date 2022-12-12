@@ -1,7 +1,7 @@
 Install an OMERO server
 =======================
 
-This chapter describes an installation of an OMERO.server and the most important post-installation steps, such as additional apps installation and LDAP configuration. The installation of the server on local machine is not recommended, except for testing or development purposes. The workflow is aimed at system administrators intending to familiarize themselves with OMERO installation.
+This chapter describes an installation of an OMERO.server and the most important post-installation steps, such as additional apps installation and LDAP configuration. The installation of the server on a local machine is not recommended, except for testing or development purposes. The workflow is aimed at system administrators intending to familiarize themselves with an OMERO installation.
 
 Description
 -----------
