@@ -27,7 +27,7 @@ Resources
 - `Ansible documentation <https://docs.ansible.com/ansible_community.html>`_
 - `Example <https://github.com/ome/omero-deployment-examples>`_ and `production <https://github.com/ome/prod-playbooks>`_ ansible playbooks.
 - `OMERO installation workshop presentation <https://downloads.openmicroscopy.org/presentations/2020/Dundee/Workshops/OME2020-OMERO-Installation/#/>`_
-- `Manual installation documentation <https://omero.readthedocs.io/en/v5.6.5/sysadmins/unix/server-centos7-ice36.html>`_.
+- `Manual installation documentation <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-centos7-ice36.html>`_.
 - `System requirements <https://omero.readthedocs.io/en/v5.6.5/sysadmins/system-requirements.html>`_
 - `List of Apps for OMERO.web and Command line plugins <https://www.openmicroscopy.org/omero/apps/>`_
 
