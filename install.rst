@@ -34,7 +34,7 @@ Resources
 Install a server
 ----------------
 
-Get an empty box or virtual machine with CentOS 7.
+System requirements for an OMERO.server are specified in the `documentation <https://omero.readthedocs.io/en/stable/sysadmins/system-requirements.html>`_.
 
 Ansible
 -------
