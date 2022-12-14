@@ -35,6 +35,7 @@ Install a server
 ----------------
 
 System requirements for an OMERO.server are specified in the `documentation <https://omero.readthedocs.io/en/stable/sysadmins/system-requirements.html>`_.
+The workflows below were tested on CentOS 7 only.
 
 Ansible
 -------
