@@ -114,14 +114,36 @@ Install the apps
 
 In order to give your users full OMERO experience, you might want to install apps after you successful OMERO.server and OMERO.web install above. Many user-facing features are released only as applications for OMERO.web, such as full image viewer and OMERO.figure.
 
-1. Install the apps using Ansible: If you used Ansible to install your OMERO.server, we recommend to add the apps installation lines to your Ansible playbook. First, add the `block <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L23>`_ defining the ``omero_python_addons`` to your ``ome.omero_server`` role. These addons are necessary for OMERO.figure exports. Further, add the block which `defines the packages <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L453>`_ to your ``ome.omero_web`` role. Furhter, `set the versions of Apps <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L444>`_ to be installed - you do not have to use the ``override`` logic for that, just define your variables in a ``vars`` block at the end of your playbook such as::
+1. Install the apps using Ansible: If you used Ansible to install your OMERO.server, we recommend to add the apps installation lines to your Ansible playbook. First, create an `omero_server_python_addons block <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L74>`_ under your `ome.omero_server <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L73>`_ role block and add the `reportlab <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L78>`_ and `markdown <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L79>`_ addons to it. These addons are necessary for OMERO.figure exports. Further, under your `ome.omero_web <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L84>`_ role block create an `omero_web_config_set definition <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L108>`_ and add the following blocks to it:
+
+ - `omero_web_apps <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L109>`_ 
+
+ - `omero.web.ui.center_plugins <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L117>`_
+
+ - `omero.web.ui.top_links <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L120>`_ 
+
+ - `omero.web.open_with <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L128>`_ 
+
+ - `omero.web.iviewer_view line  <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L141>`_ # enables OMERO.iviewer as default viewer
+
+ - `omero.web.mapr.config <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L142>`_
+
+You also have to `define the App package variables <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L453>`_ in a `vars block at the end of your playbook <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L433>`_. You can simplify the definition and ignore the ``override`` logic as follows::
     
     vars:
-      omero_figure_release:"5.1.0"
-      omero_fpbioimage_release:...
-      ...    
+      omero_figure_release: "5.1.0"
+      omero_web_apps_packages:
+        - "omero-figure=={{ omero_figure_release }}"
+        - "omero-fpbioimage"
+        - "omero-iviewer"
+        - "omero-mapr"
+        - "omero-parade"
+        - "omero-webtagging-autotag"
+        - "omero-webtagging-tagsearch"    
     
-`Configure <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L63>`_ the OMERO.iviewer to be the default viewer when the user double-clicks onto a thumbnail in OMERO.web and `set the namespace <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L65>`_ of the MapAnnotations to be considered by OMERO.mapr. Then, `enable the Open With feature <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L74>`_ for your installed Apps and add the `centre pane links <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L90>`_ for the user to be able to start OMERO.parade from OMERO.web. Lastly, add the `block defining the top links for OMERO.figure and OMERO.mapr <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L94>`_. In another block in your playbook, in a separate `task <https://github.com/ome/ansible-example-omero-addons/blob/cf8aa023c30c89c127d7be7ee96ed8ba94813dcb/playbook.yml#L120>`_ define the job of downloading the necassary script for OMERO.figure which exports the Figures as pdf. Then rerun the command::
+The release number such as ``5.1.0`` above can be taken from `Python package index (Pypi) <https://pypi.org/search/?q=omero>`_ or you can copy the most recent number from `the OME training playbook <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L444>`_ . Note that the ``omero_figure_release`` must be defined as shown above, because it is used by the Figure_To_Pdf.py routine described below.
+
+In a separate `task <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L187>`_ block `define the job of downloading the necassary script for OMERO.figure <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L204>`_ which exports the Figures as pdf. Then rerun the command::
 
     $ ansible-playbook --become -i hosts.yml playbook.yml
 
@@ -130,4 +152,16 @@ In order to give your users full OMERO experience, you might want to install app
 Configure your server
 ---------------------
 
-Depending on the environment and purpose of your server, you will need to configure your OMERO.server. If you for example intend to run a training on OMERO using your OMERO.server, you can add to the `omero_server_config_set block <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L473>`_ the `four parameters <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L479>`_ - the ``omero.db.poolsize`` and the 3 ``omero.jvmcfg...`` parameters.
+Depending on the environment and purpose of your server, you will need to configure your OMERO.server. 
+
+The parameters which might be necessary for the OMERO.server accessed by many users at the same time, e.g. in training are defined in the `omero_server_config_set block <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L473>`_. Add such ``omero_server_config_set`` block to your playbook and include into it
+
+  - `omero.db.poolsize <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L479>`_
+  
+  - `the 3 omero.jvmcfg... <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b8cebe65047aa32ddbfe0c5b7/omero/training-server/playbook.yml#L480>`_ parameters.
+
+Then rerun the command::
+
+    $ ansible-playbook --become -i hosts.yml playbook.yml
+
+The configuration of the OMERO.server can also be achived manually, again, do not mix Ansible and manual workflows on the same server, as the next Ansible run might invalidate your changes made manually.
