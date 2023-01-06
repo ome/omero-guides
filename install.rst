@@ -153,12 +153,3 @@ Then rerun the command::
     $ ansible-playbook --become -i hosts.yml playbook.yml
 
 The configuration of the OMERO.server can also be achived `manually <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-centos7-ice36.html#configuring-omero-server>`_, but do not mix Ansible and manual workflows on the same server, as the next Ansible run might invalidate your changes made manually.
-
-Configure LDAP
---------------
-
-LDAP is an open standard for querying and modifying directory services that is commonly used for authentication, authorization and accounting (AAA). OMERO.server supports the use of an LDAP server to query (but not modify) AAA information for the purposes of automatic user creation.
-
-This allows OMERO users to be automatically created and placed in groups according to your existing institution policies.
-
-1. Add lines to your ``playbook.yml`` 
