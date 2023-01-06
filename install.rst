@@ -1,7 +1,7 @@
 Install an OMERO server
 =======================
 
-This chapter describes an installation of an OMERO.server and the most important post-installation steps, such as additional apps installation and LDAP configuration. The installation of the server on a local machine is not recommended, except for testing or development purposes. The workflow is aimed at system administrators intending to familiarize themselves with an OMERO installation.
+This chapter describes an installation of an OMERO.server and the most important post-installation steps, such as additional apps installation and LDAP configuration. The installation of the server on a local machine is not recommended, except for testing or development purposes. The chapter is aimed at system administrators intending to familiarize themselves with an OMERO installation or wishing to install OMERO for training purposes. It concentrates mainly on an installation using Ansible. If you intend to install a production OMERO.server, please study `the documentation <https://omero.readthedocs.io/en/stable/sysadmins>`_.
 
 Description
 -----------
@@ -25,7 +25,7 @@ Resources
 - Webpage  `Start with OMERO at your Institution <https://www.openmicroscopy.org/omero/institution/getting-started.html>`_
 - `Ansible <https://www.ansible.com/>`_
 - `Ansible documentation <https://docs.ansible.com/ansible_community.html>`_
-- `Example <https://github.com/ome/omero-deployment-examples>`_ and `production <https://github.com/ome/prod-playbooks>`_ ansible playbooks.
+- `Example <https://github.com/ome/omero-deployment-examples>`_ and `production <https://github.com/ome/prod-playbooks/omero>`_ ansible playbooks.
 - `OMERO installation workshop presentation <https://downloads.openmicroscopy.org/presentations/2020/Dundee/Workshops/OME2020-OMERO-Installation/#/>`_
 - `Manual installation documentation <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-centos7-ice36.html>`_
 - `System requirements <https://omero.readthedocs.io/en/stable/sysadmins/system-requirements.html>`_
@@ -91,23 +91,11 @@ Start OMERO.insight or a Command Line Interface (CLI) and log in to ``localhost`
 
 Go to `http://localhost:4080/webclient/ <http://localhost:4080/webclient/>`_ in your browser and log in to OMERO.web as ``root`` with password ``omero``.
 
-
-
 Manual installation
 -------------------
 
 You also have the option to follow the manual server installation steps - see link in Resources section above. This way is harder then using Ansible or Docker, but you will understand the
 server installation in-depth after this.
-
-
-Configure LDAP
---------------
-
-LDAP is an open standard for querying and modifying directory services that is commonly used for authentication, authorization and accounting (AAA). OMERO.server supports the use of an LDAP server to query (but not modify) AAA information for the purposes of automatic user creation.
-
-This allows OMERO users to be automatically created and placed in groups according to your existing institution policies.
-
-
 
 Install the apps
 ----------------
@@ -164,4 +152,13 @@ Then rerun the command::
 
     $ ansible-playbook --become -i hosts.yml playbook.yml
 
-The configuration of the OMERO.server can also be achived manually, again, do not mix Ansible and manual workflows on the same server, as the next Ansible run might invalidate your changes made manually.
+The configuration of the OMERO.server can also be achived `manually <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-centos7-ice36.html#configuring-omero-server>`_, but do not mix Ansible and manual workflows on the same server, as the next Ansible run might invalidate your changes made manually.
+
+Configure LDAP
+--------------
+
+LDAP is an open standard for querying and modifying directory services that is commonly used for authentication, authorization and accounting (AAA). OMERO.server supports the use of an LDAP server to query (but not modify) AAA information for the purposes of automatic user creation.
+
+This allows OMERO users to be automatically created and placed in groups according to your existing institution policies.
+
+1. Add lines to your ``playbook.yml`` 
