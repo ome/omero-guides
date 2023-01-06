@@ -72,7 +72,7 @@ Go to ``https://YOUR-HOST-NAME:4080/webclient/`` in your browser and log in to O
 Docker
 ------
 
-Even quicker option than ansible is docker, but you have to be comfortable working with containers. The docker workflow below is written for local installation of OMERO only for convenience, but bear in mind that you will have to install OMERO on a remote server when going into production.
+This approach is quicker than the Ansible installation but you should be comfortable working with containers. The docker workflow below is written for local installation of OMERO only for convenience, but bear in mind that you will have to install OMERO on a remote server when going into production.
 
 Assuming that Docker is installed, clone the deployment examples repository (if not already cloned)::
 
