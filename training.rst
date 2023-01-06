@@ -20,7 +20,7 @@ Setup of scripts and OMERO.cli environment
 
     $ git clone https://github.com/ome/training-scripts.git
 
-- Set up a OMERO.cli as specified under `CLI installation <https://docs.openmicroscopy.org/omero/latest/users/cli/installation.html>`_. Typically, this environment will be used on your local machine. Alternatively, you can use the OMERO.cli environment of the server you installed below (possibly, but not necessarily, on a different machine).
+- Set up a OMERO.cli as specified under `CLI installation <https://docs.openmicroscopy.org/omero/latest/users/cli/installation.html>`_. Typically, this environment will be used on your local machine. Alternatively, you can use the OMERO.cli environment of the server you installed as specified below.
 
 Spin up a training server
 -------------------------
