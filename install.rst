@@ -97,6 +97,11 @@ Manual installation
 You also have the option to follow the manual server installation steps - see link in Resources section above. This way is harder then using Ansible or Docker, but you will understand the
 server installation in-depth after this.
 
+.. _Warningansible:
+
+.. warning::
+    If you used Ansible to install your server, it is not advisable to start making manual installs on top of this, as the next re-run of the Ansible playbook might invalidate the manual changes made.
+
 Install the apps
 ----------------
 
@@ -135,7 +140,7 @@ In a separate `task <https://github.com/ome/prod-playbooks/blob/929a4c4fefcffa3b
 
     $ ansible-playbook --become -i hosts.yml playbook.yml
 
-2. If you installed the OMERO.server manually, you can also install Apps manually according to LINK to APPS list in the website. But please note that if you used Ansible to install your server, it is not advisable to start making manual installs on top of this, as the next re-run of the Ansible playbook might invalidate the manual changes made.
+2. You can also install Apps manually according to `Apps for OMERO.web <https://www.openmicroscopy.org/omero/apps/>`_, but note the :ref:`warning <Warningansible>`.
 
 Configure your server
 ---------------------
@@ -152,4 +157,4 @@ Then rerun the command::
 
     $ ansible-playbook --become -i hosts.yml playbook.yml
 
-The configuration of the OMERO.server can also be achived `manually <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-centos7-ice36.html#configuring-omero-server>`_, but do not mix Ansible and manual workflows on the same server, as the next Ansible run might invalidate your changes made manually.
+The configuration of the OMERO.server can also be achived `manually <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-centos7-ice36.html#configuring-omero-server>`_, but note the :ref:`warning <Warningansible>`.
