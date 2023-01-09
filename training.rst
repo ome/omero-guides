@@ -29,7 +29,7 @@ System requirements for an OMERO.server are specified in the `documentation <htt
 
 We recommend to use the Ansible management software and use the provided Ansible playbook to install the OMERO.server for training, as this gives you the exact blueprint of the server setup used during trainings run by the OME Team.
 
-You can use the exact `training ansible playbook <https://github.com/ome/prod-playbooks/blob/master/omero/training-server/playbook.yml>`_ used by the OME Team for their training server. Alternatively, you might start with a `simpler playbook <https://github.com/ome/ansible-example-omero-addons/blob/master/playbook.yml>`_. Both of those playbooks will also install the OMERO.web Apps for you.
+You can use the exact `training ansible playbook <https://github.com/ome/prod-playbooks/blob/master/omero/training-server/playbook.yml>`_ used by the OME Team for their training server. Alternatively, you might take the approach suggested in POINT TO INSTALL, where a very simple playbook is suggested first and the more complex steps are added and explained gradually.
 
 You also have the option to follow the server installation steps in the `sysadmin documentation <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-installation.html>`_. In this case, you will have to install `Apps for OMERO.web <https://www.openmicroscopy.org/omero/apps/>`_ in separate, post installation steps. We recommend to install all apps listed on the webpage except OMERO.gallery and OMERO.mapr. 
 
