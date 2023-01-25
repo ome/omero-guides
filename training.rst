@@ -16,36 +16,25 @@ Resources
 Setup of scripts and OMERO.cli environment
 ------------------------------------------
 
+- This guide assumes that you have installed an OMERO.server for training purposes.
+
 - Clone the `training-scripts <https://github.com/ome/training-scripts>`_ repository::
 
     $ git clone https://github.com/ome/training-scripts.git
 
-- Set up a OMERO.cli as specified under `CLI installation <https://docs.openmicroscopy.org/omero/latest/users/cli/installation.html>`_. Typically, this environment will be used on your local machine. Alternatively, you can use the OMERO.cli environment of the server you installed as specified below.
+- Set up a OMERO.cli as specified under `CLI installation <https://docs.openmicroscopy.org/omero/latest/users/cli/installation.html>`_. Typically, this environment will be used on your local machine. Alternatively, you can use the OMERO.cli environment of the OMERO.server.
 
-Spin up a training server
+Setup of groups and users
 -------------------------
-
-System requirements for an OMERO.server are specified in the `documentation <https://omero.readthedocs.io/en/stable/sysadmins/system-requirements.html>`_. All  training servers used by the OME Team run in VMs with CentOS 7.
-
-We recommend to use the Ansible management software and use the provided Ansible playbook to install the OMERO.server for training, as this gives you the exact blueprint of the server setup used during trainings run by the OME Team.
-
-You can use the exact `training ansible playbook <https://github.com/ome/prod-playbooks/blob/master/omero/training-server/playbook.yml>`_ used by the OME Team for their training server. Alternatively, you might take the approach suggested in :doc:`install` part of these guides, where a very simple playbook is suggested first and the more complex steps are added and explained gradually.
-
-:doc:`install` also explains the necessary steps to install Add-ons for OMERO.web such as OMERO.figure and the configuration of the server.
-
-You also have the option to follow the server installation steps in the `sysadmin documentation <https://omero.readthedocs.io/en/stable/sysadmins/unix/server-installation.html>`_. In this case, you will have to install `Apps for OMERO.web <https://www.openmicroscopy.org/omero/apps/>`_ in separate, post installation steps. We recommend to install all apps listed on the webpage except OMERO.gallery and OMERO.mapr.
-
-Set up groups and users
------------------------
 
 Prepare groups and users as listed in the `provided template sheet <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users_setup>`_. Assuming you have the `template sheet <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users_setup>`_ in the same directory as the script `create_groups_users.sh <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users.sh>`_, you can run::
 
-    $ SUDOER=trainer bash create_groups_users.sh
+    $ HOST=$YOUR_SERVER_ADDRESS PASSWORD=$PASSWORD_FOR_ROOT bash create_groups_users.sh
 
 which will create 50 users in your database.
 The users are members of four main OMERO.groups, which cover
 the group permissions allowed in OMERO. The ``Read-annotate`` group ``Lab 1`` is the main group used in the trainings,
-which contains most of the data.
+which contains most of the data in a typical training. The setup in the `template sheet <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users_setup>`_ sets this ``Lab 1`` group as a default group in OMERO for all users.
 
 Rename users to have first and last names of real people (the list of famous scientist names is used) running `the renaming script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/rename_users.py>`_.
 
