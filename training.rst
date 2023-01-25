@@ -13,8 +13,8 @@ Resources
 - `Useful scripts <https://github.com/ome/training-scripts>`_ for setting up the training server.
 
 
-Setup of scripts and OMERO.cli environment
-------------------------------------------
+Download of scripts and OMERO.cli environment setup
+---------------------------------------------------
 
 - This guide assumes that you have installed an OMERO.server for training purposes.
 
@@ -29,6 +29,7 @@ Setup of groups and users
 
 Prepare groups and users as listed in the `provided template sheet <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users_setup>`_. Assuming you have the `template sheet <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users_setup>`_ in the same directory as the script `create_groups_users.sh <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users.sh>`_, you can run::
 
+    $ cd training-scripts/maintenance/scripts
     $ HOST=$YOUR_SERVER_ADDRESS PASSWORD=$PASSWORD_FOR_ROOT bash create_groups_users.sh
 
 which will create 50 users in your database.
@@ -36,12 +37,15 @@ The users are members of four main OMERO.groups, which cover
 the group permissions allowed in OMERO. The ``Read-annotate`` group ``Lab 1`` is the main group used in the trainings,
 which contains most of the data in a typical training. The setup in the `template sheet <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/create_groups_users_setup>`_ sets this ``Lab 1`` group as a default group in OMERO for all users.
 
-Rename users to have first and last names of real people (the list of famous scientist names is used) running `the renaming script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/rename_users.py>`_.
+Rename users to have first and last names of real people (the list of famous scientist names is used) running `the renaming script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/rename_users.py>`_::
+
+    $ rename_users.py trainer-1 $PASSWORD --server $YOUR_SERVER_ADDRESS
 
 Import images
 -------------
 
-`Import data in-place <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#in-place-import-using-the-cli>`_ for all users using `import bash script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/in_place_import_as.sh>`_ and the `publicly available data provided <https://downloads.openmicroscopy.org/images/>`_ or use your own data or `data downloaded from IDR <https://idr.openmicroscopy.org/about/download.html>`_. Shell into the machine where you have installed your OMERO.server (necessary for in-place import) and, assuming that you have for example your data in a folder `my-folder` which is visible from that machine::
+We like to use `in-place import <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#in-place-import-using-the-cli>`_ because it avoids duplicating the data on disk, but if you are only importing a small amount of data you may find non-in-place import (described below) is more convenient.
+In-place import is achieved by using `import bash script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/in_place_import_as.sh>`_. Use the `publicly available data provided <https://downloads.openmicroscopy.org/images/>`_ or use your own data or `data downloaded from IDR <https://idr.openmicroscopy.org/about/download.html>`_. Shell into the machine where you have installed your OMERO.server (necessary for in-place import) and, assuming that you have for example your data in a folder `my-folder` which is visible from that machine::
 
     $ IMPORTTYPE=normal NUMBER=15 FOLDER=/path/to/my-folder bash in_place_import_as.sh
 
