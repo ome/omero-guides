@@ -45,15 +45,15 @@ Import images
 -------------
 
 We like to use `in-place import <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#in-place-import-using-the-cli>`_ because it avoids duplicating the data on disk, but if you are only importing a small amount of data you may find non-in-place import (described below) is more convenient.
-In-place import is achieved by using `import bash script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/in_place_import_as.sh>`_. Use the `publicly available data provided <https://downloads.openmicroscopy.org/images/>`_ or use your own data or `data downloaded from IDR <https://idr.openmicroscopy.org/about/download.html>`_. Shell into the machine where you have installed your OMERO.server (necessary for in-place import) and, assuming that you have for example your data in a folder `my-folder` which is visible from that machine::
+In-place import is achieved by using `import bash script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/in_place_import_as.sh>`_. Use the `publicly available data provided <https://downloads.openmicroscopy.org/images/>`_ or use your own data or `data downloaded from IDR <https://idr.openmicroscopy.org/about/download.html>`_. Shell into the machine where you have installed your OMERO.server (necessary for in-place import) and, assuming that you have for example your data in a folder ``my-folder`` which is visible from that machine::
 
-    $ IMPORTTYPE=normal NUMBER=15 FOLDER=/path/to/my-folder bash in_place_import_as.sh
+    $ HOST=localhost SUDOER=trainer-1 PASSWORD=$PASSWORD_FOR_trainer-1 IMPORTTYPE=normal NUMBER=15 FOLDER=/path/to/my-folder bash in_place_import_as.sh
 
-will in-place import the images from `my-folder` into a new Dataset named `my-folder` for user-1 through user-15.
+will in-place import the images from ``my-folder`` into a new Dataset named ``/path/to/my-folder`` for user-1 through user-15.
 
-To achieve a better reproducibility of your imports, you can use a `bulk file <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#bulk-import-using-the-cli>`_ pointing to a list of paths of the image files. Assuming you have for example the bulk file `idr0021-experimentA-bulk.yml <https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-bulk.yml>`_ located on the filesystem you are working on, together with the corresponding `idr0021-experimentA-filePaths.tsv <https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-filePaths.tsv>`_ file and the images as specified in the `idr0021-experimentA-filePaths.tsv <https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-filePaths.tsv>`_ which you have edited accordingly, you can import::
+To achieve a better reproducibility of your imports, you can use a `bulk file <https://omero-guides.readthedocs.io/en/latest/upload/docs/import-cli.html#bulk-import-using-the-cli>`_ pointing to a list of paths of the image files. Assuming you have for example the bulk file `idr0021-experimentA-bulk.yml <https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-bulk.yml>`_ located on the filesystem you are working on, together with the corresponding `idr0021-experimentA-filePaths.tsv <https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-filePaths.tsv>`_ file and the images as specified in the `idr0021-experimentA-filePaths.tsv <https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-filePaths.tsv>`_ which you have edited accordingly, you can run::
 
-    $ OMEUSER=trainer NUMBER=2 BULKFILE=/path/to/idr0021-experimentA-bulk.yml bash in_place_import_as.sh
+    $ HOST=localhost SUDOER=trainer-1 PASSWORD=$PASSWORD_FOR_trainer-1 OMEUSER=trainer NUMBER=2 BULKFILE=/path/to/idr0021-experimentA-bulk.yml bash in_place_import_as.sh
 
 to import the images for trainer-1 and trainer-2.
 
@@ -63,7 +63,7 @@ Image data can also be populated by a `Python script <https://github.com/ome/tra
 
     $ python idr_copy_plate.py trainer-1 --server $YOUR_SERVER_ADDRESS $PASSWORD $PLATE_ID
 
-will copy the Plate with $PLATE_ID from IDR as trainer-1 into your server.
+will copy the Plate with $PLATE_ID from IDR as trainer-1 into your server, but note that this ``idr_copy_plate.py`` script only works on Plates which have a single Field (Image) per Well.
 
 
 Import metadata
