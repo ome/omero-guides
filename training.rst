@@ -39,7 +39,7 @@ which contains most of the data in a typical training. The setup in the `templat
 
 Rename users to have first and last names of real people (the list of famous scientist names is used) running `the renaming script <https://github.com/ome/training-scripts/blob/master/maintenance/scripts/rename_users.py>`_::
 
-    $ rename_users.py trainer-1 $PASSWORD --server $YOUR_SERVER_ADDRESS
+    $ python rename_users.py trainer-1 $PASSWORD --server $YOUR_SERVER_ADDRESS
 
 Import images
 -------------
