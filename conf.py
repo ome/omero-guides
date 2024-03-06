@@ -59,7 +59,7 @@ copyright = u'2019-2024, Open Microscopy Environment'
 # built documents.
 #
 # The short X.Y version.
-version = '2024.03.06'
+version = 'latest'
 # The full version, including alpha/beta/rc tags.
 release = version
 
