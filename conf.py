@@ -193,11 +193,6 @@ html_static_path = ['_static']
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
 
-#html_context = {
-#    'css_files': [
-#        '_static/theme_overrides.css',  # override wide tables in RTD theme
-#        ],
-#     }
 
 html_css_files = ['theme_overrides.css']
 
