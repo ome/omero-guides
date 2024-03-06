@@ -18,7 +18,7 @@ or the API of those tools.
      - :doc:`fiji/docs/index`
      - .. include:: fiji/docs/index.rst
          :start-line: 3
-         :end-before: Contents
+         :end-before: Install
    * - \ |ilastik|_
      - :doc:`ilastik/docs/index`
      - .. include:: ilastik/docs/index.rst

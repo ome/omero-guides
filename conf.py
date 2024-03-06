@@ -37,6 +37,7 @@ extensions = [
     'sphinx.ext.inheritance_diagram',
     'sphinx_rtd_theme']
 
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -360,5 +361,5 @@ rst_epilog = """
 .. _matlab: matlab/docs/index.html
 .. _python: python/docs/index.html
 .. _java: java/docs/index.html
-
+.. |insight_version| replace:: 5.5.15
 """
