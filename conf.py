@@ -287,7 +287,7 @@ texinfo_documents = [
 epub_title = u'OMERO guide'
 epub_author = u'Open Microscopy Environment'
 epub_publisher = u'Open Microscopy Environment'
-epub_copyright = u'2019-2020, Open Microscopy Environment'
+epub_copyright = u'2019-2024, Open Microscopy Environment'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'OMERO guide'
