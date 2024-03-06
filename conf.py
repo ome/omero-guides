@@ -198,6 +198,9 @@ html_static_path = ['_static']
 #        '_static/theme_overrides.css',  # override wide tables in RTD theme
 #        ],
 #     }
+
+html_css_files = ['theme_overrides.css']
+
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'OMEROguidedoc'
 
