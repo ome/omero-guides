@@ -25,3 +25,7 @@ build:
 submodules:
   include: all
   recursive: true
+
+python:
+   install:
+     - requirements: requirements.txt
