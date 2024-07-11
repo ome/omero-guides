@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OMERO guide'
-copyright = u'2019-2024, Open Microscopy Environment (License: BSD-2)'
+copyright = u'2019-2024, Open Microscopy Environment (License: [BSD-2](https://github.com/ome/omero-guides?tab=BSD-2-Clause-1-ov-file#readme))'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
