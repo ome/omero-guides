@@ -7,7 +7,7 @@ To learn more about OMERO, we recommend that you first visit the `Open Microscop
 
 You can also watch videos of OMERO features or workshop recordings on the `Open Microscopy Environment YouTube channel <https://www.youtube.com/channel/UCyySB9ZzNi8aBGYqcxSrauQ/videos>`_.
 
-Further, the external guides can help both with organizing trainings as well as looking at OMERO from a different vantage point and easing beginners into OMERO usage, see `I3D:bio's OMERO training materials <https://zenodo.org/records/8323588>`_.
+Following the guides/videos linked below will help both with answering the "Why OMERO?" question from wider perspective and with organization of trainings, see `I3D:bio's OMERO training materials <https://www.youtube.com/watch?v=D5UHx3d_JxA&list=PL2k-L-zWPoR7SHjG1HhDIwLZj0MB_stlU&index=2>`_.
 
 Getting started
 ---------------
